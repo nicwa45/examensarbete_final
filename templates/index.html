@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 Hero Stats</title>
+    <link rel="stylesheet" href="/static/styles.css"> <!-- Link to external CSS -->
+    <script src="/static/app.js" defer></script> <!-- Link to external JavaScript -->
+</head>
+<body>
+    <header>
+        <h1>Dota 2 Hero Stats</h1>
+        <img src="https://dota2heroimg.blob.core.windows.net/heroimg/dota2logo/dota2.jpg" alt="Dota 2 Logo" class="header-logo">
+    </header>
+    
+    <main>
+        <section class="hero-selection">
+            <label for="heroDropdown">Select a Hero:</label>
+            <select id="heroDropdown" onchange="fetchHeroDetails()"></select>
+        </section>
+
+        <section id="heroStats" class="hero-details">
+            <!-- Hero Stats Section -->
+        </section>
+
+        <section id="abilities" class="hero-abilities">
+            <!-- Hero Abilities Section -->
+        </section>
+
+        <section id="winRateStats" class="win-rate-stats">
+            <!-- Hero Win Rate Stats Section -->
+        </section>
+
+        <section id="professionalStats" class="professional-stats">
+            <!-- Hero Professional Stats Section -->
+        </section>
+    </main>
+    <footer>
+        <p>Powered by OpenDota and Stratz APIs</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
