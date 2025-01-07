@@ -1,7 +1,7 @@
 name: Deploy Docker Image to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: dota2webapp
+  AZURE_WEBAPP_NAME: dota2appen
   DOCKER_IMAGE: nicwa05/dota2webapp:latest
 
 on:
@@ -14,9 +14,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      # Deploy to Azure Web App
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
@@ -24,5 +26,6 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           images: ${{ env.DOCKER_IMAGE }}
+
 
 
