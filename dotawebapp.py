@@ -16,11 +16,11 @@ def index():
 
 @app.route('/heroes', methods=['GET'])
 def get_heroes():
-    # Fetch all heroes to populate the dropdown
+    #Fetch all heroes to populate the dropdown
     response = requests.get(f"{API_BASE_URL}/heroStats")
     if response.status_code == 200:
         heroes = response.json()
-        # Return hero IDs, names, and image URLs for the dropdown
+        #Return hero IDs, names, and image URLs for the dropdown
         hero_list = [
             {
                 "id": hero["id"],
@@ -56,7 +56,7 @@ def get_hero_details(hero_id):
             if abilities:
                 hero_details["abilities"] = abilities
 
-            # Add win rate brackets
+            #Add win rate brackets
             win_rate_brackets = {
                 "Herald": get_win_rate(hero_details, "1"),
                 "Guardian": get_win_rate(hero_details, "2"),
@@ -69,7 +69,7 @@ def get_hero_details(hero_id):
             }
             hero_details["win_rate_brackets"] = win_rate_brackets
 
-            # Add professional stats
+            #lägg till pro stats
             professional_stats = {
                 "Pro Picks": hero_details.get("pro_pick", "N/A"),
                 "Pro Wins": hero_details.get("pro_win", "N/A"),
@@ -78,7 +78,7 @@ def get_hero_details(hero_id):
             }
             hero_details["professional_stats"] = professional_stats
 
-            # Include vision stats
+            #inkludera vision stats
             hero_details["day_vision"] = hero_details.get("day_vision", "N/A")
             hero_details["night_vision"] = hero_details.get("night_vision", "N/A")
 
