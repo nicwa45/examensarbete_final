@@ -6,7 +6,7 @@ app = Flask(__name__)
 # API Base URLs and Authentication
 API_BASE_URL = "https://api.opendota.com/api"
 STRATZ_GRAPHQL_URL = "https://api.stratz.com/graphql"
-STRATZ_AUTH_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWJqZWN0IjoiYmIwYjcwZGItMzNlYi00OGUzLThhYjUtNWNmZmEzYjhiMTc1IiwiU3RlYW1JZCI6IjI2ODY0ODM0IiwibmJmIjoxNzMzMTU1OTc5LCJleHAiOjE3NjQ2OTE5NzksImlhdCI6MTczMzE1NTk3OSwiaXNzIjoiaHR0cHM6Ly9hcGkuc3RyYXR6LmNvbSJ9.J4n-S_sHCAAwgz7MR_rNUIr61dfgLqZqZV_vA_R9qaI"  # Replace with your Stratz API token
+STRATZ_AUTH_TOKEN = os.getenv("STRATZ_AUTH_TOKEN")
 
 @app.route('/')
 def index():
@@ -148,8 +148,8 @@ def get_win_rate(hero_details, bracket):
     return "N/A"
 
 if __name__ == '__main__':
-    app.run(debug=True)
-
+    app.run(host="0.0.0.0", port=int(os.getenv("PORT", 5000)))
+    
 
 
 
