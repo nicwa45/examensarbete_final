@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark black/gray for modern feel */
+    color: #f4f4f4; /* Light text for contrast */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1f1f1f;
+    color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.header-logo {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 10px;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+/* Dropdown */
+.dropdown {
+    background: #333; /* Darker dropdown background */
+    color: #f4f4f4; /* White text */
+    border: 1px solid #555; /* Subtle border */
+}
+
+.dropdown {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.hero-details h2 {
+    color: #ffffff; /* Makes the text white */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Adds a shadow for better readability */
+}
+
+/* Hero Image */
+.hero-image {
+    border: 2px solid #555; /* Border around hero image */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.ability-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Sections */
+section {
+    background: #1e1e1e; /* Dark gray for contrast */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+section h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    color: #444;
+}
+
+section p {
+    margin: 10px 0;
+}
+
+/* Abilities */
+.abilities .ability {
+    border: 1px solid #555; /* Border to match theme */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #252525; /* Slightly lighter gray */
+}
+
+.abilities .ability img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.abilities .ability h4 {
+    margin: 0;
+    color: #0056b3;
+}
+
+.win-rate-stats h3 {
+    color: #ffffff; /* White text */
+    margin-bottom: 10px;
+    text-align: left; /* Adjust alignment as needed */
+}
+
+/* Footer */
+footer {
+    background: #1f1f1f;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
