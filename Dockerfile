@@ -1,18 +1,17 @@
-#Use the official Python image
-FROM python:3.10-slim
+# Use an official Python runtime as a parent image
+FROM python:3.12-slim
 
-#Set the working directory
+# Set the working directory in the container
 WORKDIR /app
 
-#Copy requirements.txt and install dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy the application files into the container
+COPY . /app
 
-#Copy the rest of the application code
-COPY . .
+# Install dependencies
+RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
-#Expose the port Flask runs on
+# Expose port 5000 for Flask
 EXPOSE 5000
 
-#Set the command to run the Flask app
+# Run the Flask app
 CMD ["python", "dotawebapp.py"]
