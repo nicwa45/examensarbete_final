@@ -27,7 +27,7 @@ jobs:
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           images: ${{ env.DOCKER_IMAGE }}
         env:
-          API_KEY: ${{ secrets.API_KEY }}
+          API_KEY: ${{ secrets.STRATZ_AUTH_TOKEN }}
 
 
 
