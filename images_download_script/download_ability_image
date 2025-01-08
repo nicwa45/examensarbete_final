@@ -1,0 +1,38 @@
+import json
+import os
+import requests
+
+# Path to the JSON file
+json_file_path = "abilities.json"
+
+# Load and parse the JSON data
+with open(json_file_path, "r") as file:
+    abilities_data = json.load(file)  # Parse the JSON content into a Python object
+
+# Extract ability names
+ability_names = []
+for hero in abilities_data["data"]["constants"]["heroes"]:
+    if "abilities" in hero:
+        for ability_entry in hero["abilities"]:
+            ability_name = ability_entry["ability"]["name"]
+            ability_names.append(ability_name)
+
+# Base URL for downloading ability images
+base_url = "https://cdn.dota2.com/apps/dota2/images/dota_react/abilities/"
+
+# Local directory to save images
+local_dir = "ability_images/"
+os.makedirs(local_dir, exist_ok=True)
+
+# Download images for each ability
+for ability_name in ability_names:
+    image_url = f"{base_url}{ability_name}.png"
+    print(f"Downloading {ability_name} from {image_url}")
+    response = requests.get(image_url)
+    if response.status_code == 200:
+        with open(os.path.join(local_dir, f"{ability_name}.png"), "wb") as f:
+            f.write(response.content)
+        print(f"Downloaded: {ability_name}")
+    else:
+        print(f"Failed to download: {ability_name}")
+
