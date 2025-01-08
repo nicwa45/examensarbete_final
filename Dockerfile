@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir --upgrade pip && pip install --no-cache-dir -r re
 EXPOSE 5000
 
 # Run the Flask app
-CMD ["python", "dotawebapp.py"]
+CMD ["sh", "-c", "export STRATZ_AUTH_TOKEN=$STRATZ_AUTH_TOKEN && python dotawebapp.py"]
