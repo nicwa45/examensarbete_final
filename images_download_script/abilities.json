@@ -1,0 +1,4898 @@
+{
+  "data": {
+    "constants": {
+      "heroes": [
+        {
+          "id": 1,
+          "abilities": [
+            {
+              "ability": {
+                "name": "antimage_mana_break"
+              }
+            },
+            {
+              "ability": {
+                "name": "antimage_blink"
+              }
+            },
+            {
+              "ability": {
+                "name": "antimage_counterspell"
+              }
+            },
+            {
+              "ability": {
+                "name": "antimage_counterspell_ally"
+              }
+            },
+            {
+              "ability": {
+                "name": "antimage_persectur"
+              }
+            },
+            {
+              "ability": {
+                "name": "antimage_mana_void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "abilities": [
+            {
+              "ability": {
+                "name": "axe_berserkers_call"
+              }
+            },
+            {
+              "ability": {
+                "name": "axe_battle_hunger"
+              }
+            },
+            {
+              "ability": {
+                "name": "axe_counter_helix"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "axe_culling_blade"
+              }
+            },
+            {
+              "ability": {
+                "name": "axe_coat_of_blood"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "abilities": [
+            {
+              "ability": {
+                "name": "bane_enfeeble"
+              }
+            },
+            {
+              "ability": {
+                "name": "bane_brain_sap"
+              }
+            },
+            {
+              "ability": {
+                "name": "bane_nightmare"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "bane_fiends_grip"
+              }
+            },
+            {
+              "ability": {
+                "name": "bane_nightmare_end"
+              }
+            },
+            {
+              "ability": {
+                "name": "bane_ichor_of_nyctasha"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "abilities": [
+            {
+              "ability": {
+                "name": "bloodseeker_bloodrage"
+              }
+            },
+            {
+              "ability": {
+                "name": "bloodseeker_blood_bath"
+              }
+            },
+            {
+              "ability": {
+                "name": "bloodseeker_thirst"
+              }
+            },
+            {
+              "ability": {
+                "name": "bloodseeker_blood_mist"
+              }
+            },
+            {
+              "ability": {
+                "name": "bloodseeker_sanguivore"
+              }
+            },
+            {
+              "ability": {
+                "name": "bloodseeker_rupture"
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "abilities": [
+            {
+              "ability": {
+                "name": "crystal_maiden_crystal_nova"
+              }
+            },
+            {
+              "ability": {
+                "name": "crystal_maiden_frostbite"
+              }
+            },
+            {
+              "ability": {
+                "name": "crystal_maiden_brilliance_aura"
+              }
+            },
+            {
+              "ability": {
+                "name": "crystal_maiden_crystal_clone"
+              }
+            },
+            {
+              "ability": {
+                "name": "crystal_maiden_blueheart_floe"
+              }
+            },
+            {
+              "ability": {
+                "name": "crystal_maiden_freezing_field"
+              }
+            },
+            {
+              "ability": {
+                "name": "crystal_maiden_freezing_field_stop"
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "abilities": [
+            {
+              "ability": {
+                "name": "drow_ranger_frost_arrows"
+              }
+            },
+            {
+              "ability": {
+                "name": "drow_ranger_wave_of_silence"
+              }
+            },
+            {
+              "ability": {
+                "name": "drow_ranger_multishot"
+              }
+            },
+            {
+              "ability": {
+                "name": "drow_ranger_glacier"
+              }
+            },
+            {
+              "ability": {
+                "name": "drow_ranger_trueshot"
+              }
+            },
+            {
+              "ability": {
+                "name": "drow_ranger_marksmanship"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "abilities": [
+            {
+              "ability": {
+                "name": "earthshaker_fissure"
+              }
+            },
+            {
+              "ability": {
+                "name": "earthshaker_enchant_totem"
+              }
+            },
+            {
+              "ability": {
+                "name": "earthshaker_aftershock"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "earthshaker_echo_slam"
+              }
+            },
+            {
+              "ability": {
+                "name": "earthshaker_spirit_cairn"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "abilities": [
+            {
+              "ability": {
+                "name": "juggernaut_blade_fury"
+              }
+            },
+            {
+              "ability": {
+                "name": "juggernaut_healing_ward"
+              }
+            },
+            {
+              "ability": {
+                "name": "juggernaut_blade_dance"
+              }
+            },
+            {
+              "ability": {
+                "name": "juggernaut_swift_slash"
+              }
+            },
+            {
+              "ability": {
+                "name": "juggernaut_duelist"
+              }
+            },
+            {
+              "ability": {
+                "name": "juggernaut_omni_slash"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "abilities": [
+            {
+              "ability": {
+                "name": "mirana_starfall"
+              }
+            },
+            {
+              "ability": {
+                "name": "mirana_arrow"
+              }
+            },
+            {
+              "ability": {
+                "name": "mirana_leap"
+              }
+            },
+            {
+              "ability": {
+                "name": "mirana_selemenes_faithful"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "abilities": [
+            {
+              "ability": {
+                "name": "morphling_waveform"
+              }
+            },
+            {
+              "ability": {
+                "name": "morphling_adaptive_strike_agi"
+              }
+            },
+            {
+              "ability": {
+                "name": "morphling_adaptive_strike_str"
+              }
+            },
+            {
+              "ability": {
+                "name": "morphling_morph_agi"
+              }
+            },
+            {
+              "ability": {
+                "name": "morphling_morph_str"
+              }
+            },
+            {
+              "ability": {
+                "name": "morphling_replicate"
+              }
+            },
+            {
+              "ability": {
+                "name": "morphling_morph_replicate"
+              }
+            },
+            {
+              "ability": {
+                "name": "morphling_morph"
+              }
+            },
+            {
+              "ability": {
+                "name": "morphling_accumulation"
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "abilities": [
+            {
+              "ability": {
+                "name": "nevermore_shadowraze1"
+              }
+            },
+            {
+              "ability": {
+                "name": "nevermore_shadowraze2"
+              }
+            },
+            {
+              "ability": {
+                "name": "nevermore_shadowraze3"
+              }
+            },
+            {
+              "ability": {
+                "name": "nevermore_frenzy"
+              }
+            },
+            {
+              "ability": {
+                "name": "nevermore_dark_lord"
+              }
+            },
+            {
+              "ability": {
+                "name": "nevermore_requiem"
+              }
+            },
+            {
+              "ability": {
+                "name": "nevermore_necromastery"
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "abilities": [
+            {
+              "ability": {
+                "name": "phantom_lancer_spirit_lance"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_lancer_doppelwalk"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_lancer_phantom_edge"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_lancer_illusory_armaments"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_lancer_juxtapose"
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "abilities": [
+            {
+              "ability": {
+                "name": "puck_illusory_orb"
+              }
+            },
+            {
+              "ability": {
+                "name": "puck_waning_rift"
+              }
+            },
+            {
+              "ability": {
+                "name": "puck_phase_shift"
+              }
+            },
+            {
+              "ability": {
+                "name": "puck_ethereal_jaunt"
+              }
+            },
+            {
+              "ability": {
+                "name": "puck_puckish"
+              }
+            },
+            {
+              "ability": {
+                "name": "puck_dream_coil"
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "abilities": [
+            {
+              "ability": {
+                "name": "pudge_meat_hook"
+              }
+            },
+            {
+              "ability": {
+                "name": "pudge_rot"
+              }
+            },
+            {
+              "ability": {
+                "name": "pudge_flesh_heap"
+              }
+            },
+            {
+              "ability": {
+                "name": "pudge_eject"
+              }
+            },
+            {
+              "ability": {
+                "name": "pudge_innate_graft_flesh"
+              }
+            },
+            {
+              "ability": {
+                "name": "pudge_dismember"
+              }
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "abilities": [
+            {
+              "ability": {
+                "name": "razor_plasma_field"
+              }
+            },
+            {
+              "ability": {
+                "name": "razor_static_link"
+              }
+            },
+            {
+              "ability": {
+                "name": "razor_storm_surge"
+              }
+            },
+            {
+              "ability": {
+                "name": "razor_unstable_current"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "razor_eye_of_the_storm"
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "abilities": [
+            {
+              "ability": {
+                "name": "sandking_burrowstrike"
+              }
+            },
+            {
+              "ability": {
+                "name": "sandking_sand_storm"
+              }
+            },
+            {
+              "ability": {
+                "name": "sandking_scorpion_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "sandking_caustic_finale"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "sandking_epicenter"
+              }
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "abilities": [
+            {
+              "ability": {
+                "name": "storm_spirit_static_remnant"
+              }
+            },
+            {
+              "ability": {
+                "name": "storm_spirit_electric_vortex"
+              }
+            },
+            {
+              "ability": {
+                "name": "storm_spirit_overload"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "storm_spirit_ball_lightning"
+              }
+            },
+            {
+              "ability": {
+                "name": "storm_spirit_galvanized"
+              }
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "abilities": [
+            {
+              "ability": {
+                "name": "sven_storm_bolt"
+              }
+            },
+            {
+              "ability": {
+                "name": "sven_great_cleave"
+              }
+            },
+            {
+              "ability": {
+                "name": "sven_warcry"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "sven_gods_strength"
+              }
+            },
+            {
+              "ability": {
+                "name": "sven_vanquisher"
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "abilities": [
+            {
+              "ability": {
+                "name": "tiny_avalanche"
+              }
+            },
+            {
+              "ability": {
+                "name": "tiny_toss"
+              }
+            },
+            {
+              "ability": {
+                "name": "tiny_tree_grab"
+              }
+            },
+            {
+              "ability": {
+                "name": "tiny_tree_channel"
+              }
+            },
+            {
+              "ability": {
+                "name": "tiny_craggy_exterior"
+              }
+            },
+            {
+              "ability": {
+                "name": "tiny_grow"
+              }
+            },
+            {
+              "ability": {
+                "name": "tiny_toss_tree"
+              }
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "abilities": [
+            {
+              "ability": {
+                "name": "vengefulspirit_magic_missile"
+              }
+            },
+            {
+              "ability": {
+                "name": "vengefulspirit_wave_of_terror"
+              }
+            },
+            {
+              "ability": {
+                "name": "vengefulspirit_command_aura"
+              }
+            },
+            {
+              "ability": {
+                "name": "vengefulspirit_retribution"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "vengefulspirit_nether_swap"
+              }
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "abilities": [
+            {
+              "ability": {
+                "name": "windrunner_shackleshot"
+              }
+            },
+            {
+              "ability": {
+                "name": "windrunner_powershot"
+              }
+            },
+            {
+              "ability": {
+                "name": "windrunner_windrun"
+              }
+            },
+            {
+              "ability": {
+                "name": "windrunner_gale_force"
+              }
+            },
+            {
+              "ability": {
+                "name": "windrunner_focusfire_cancel"
+              }
+            },
+            {
+              "ability": {
+                "name": "windrunner_focusfire"
+              }
+            },
+            {
+              "ability": {
+                "name": "windrunner_easy_breezy"
+              }
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "abilities": [
+            {
+              "ability": {
+                "name": "zuus_arc_lightning"
+              }
+            },
+            {
+              "ability": {
+                "name": "zuus_lightning_bolt"
+              }
+            },
+            {
+              "ability": {
+                "name": "zuus_heavenly_jump"
+              }
+            },
+            {
+              "ability": {
+                "name": "zuus_cloud"
+              }
+            },
+            {
+              "ability": {
+                "name": "zuus_lightning_hands"
+              }
+            },
+            {
+              "ability": {
+                "name": "zuus_thundergods_wrath"
+              }
+            },
+            {
+              "ability": {
+                "name": "zuus_static_field"
+              }
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "abilities": [
+            {
+              "ability": {
+                "name": "kunkka_torrent"
+              }
+            },
+            {
+              "ability": {
+                "name": "kunkka_tidebringer"
+              }
+            },
+            {
+              "ability": {
+                "name": "kunkka_x_marks_the_spot"
+              }
+            },
+            {
+              "ability": {
+                "name": "kunkka_admirals_rum"
+              }
+            },
+            {
+              "ability": {
+                "name": "kunkka_tidal_wave"
+              }
+            },
+            {
+              "ability": {
+                "name": "kunkka_ghostship"
+              }
+            },
+            {
+              "ability": {
+                "name": "kunkka_return"
+              }
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "abilities": [
+            {
+              "ability": {
+                "name": "lina_dragon_slave"
+              }
+            },
+            {
+              "ability": {
+                "name": "lina_light_strike_array"
+              }
+            },
+            {
+              "ability": {
+                "name": "lina_fiery_soul"
+              }
+            },
+            {
+              "ability": {
+                "name": "lina_flame_cloak"
+              }
+            },
+            {
+              "ability": {
+                "name": "lina_combustion"
+              }
+            },
+            {
+              "ability": {
+                "name": "lina_laguna_blade"
+              }
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "abilities": [
+            {
+              "ability": {
+                "name": "lion_impale"
+              }
+            },
+            {
+              "ability": {
+                "name": "lion_voodoo"
+              }
+            },
+            {
+              "ability": {
+                "name": "lion_mana_drain"
+              }
+            },
+            {
+              "ability": {
+                "name": "lion_to_hell_and_back"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "lion_finger_of_death"
+              }
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "abilities": [
+            {
+              "ability": {
+                "name": "shadow_shaman_ether_shock"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_shaman_voodoo"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_shaman_shackles"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_shaman_fowl_play"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_shaman_mass_serpent_ward"
+              }
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "abilities": [
+            {
+              "ability": {
+                "name": "slardar_sprint"
+              }
+            },
+            {
+              "ability": {
+                "name": "slardar_slithereen_crush"
+              }
+            },
+            {
+              "ability": {
+                "name": "slardar_bash"
+              }
+            },
+            {
+              "ability": {
+                "name": "slardar_seaborn_sentinel"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "slardar_amplify_damage"
+              }
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "abilities": [
+            {
+              "ability": {
+                "name": "tidehunter_gush"
+              }
+            },
+            {
+              "ability": {
+                "name": "tidehunter_kraken_shell"
+              }
+            },
+            {
+              "ability": {
+                "name": "tidehunter_anchor_smash"
+              }
+            },
+            {
+              "ability": {
+                "name": "tidehunter_dead_in_the_water"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "tidehunter_ravage"
+              }
+            },
+            {
+              "ability": {
+                "name": "tidehunter_blubber"
+              }
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "abilities": [
+            {
+              "ability": {
+                "name": "witch_doctor_paralyzing_cask"
+              }
+            },
+            {
+              "ability": {
+                "name": "witch_doctor_voodoo_restoration"
+              }
+            },
+            {
+              "ability": {
+                "name": "witch_doctor_maledict"
+              }
+            },
+            {
+              "ability": {
+                "name": "witch_doctor_voodoo_switcheroo"
+              }
+            },
+            {
+              "ability": {
+                "name": "witch_doctor_gris_gris"
+              }
+            },
+            {
+              "ability": {
+                "name": "witch_doctor_death_ward"
+              }
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "abilities": [
+            {
+              "ability": {
+                "name": "lich_frost_nova"
+              }
+            },
+            {
+              "ability": {
+                "name": "lich_frost_shield"
+              }
+            },
+            {
+              "ability": {
+                "name": "lich_sinister_gaze"
+              }
+            },
+            {
+              "ability": {
+                "name": "lich_ice_spire"
+              }
+            },
+            {
+              "ability": {
+                "name": "lich_death_charge"
+              }
+            },
+            {
+              "ability": {
+                "name": "lich_chain_frost"
+              }
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "abilities": [
+            {
+              "ability": {
+                "name": "riki_smoke_screen"
+              }
+            },
+            {
+              "ability": {
+                "name": "riki_blink_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "riki_tricks_of_the_trade"
+              }
+            },
+            {
+              "ability": {
+                "name": "riki_innate_backstab"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "riki_backstab"
+              }
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "abilities": [
+            {
+              "ability": {
+                "name": "enigma_malefice"
+              }
+            },
+            {
+              "ability": {
+                "name": "enigma_demonic_conversion"
+              }
+            },
+            {
+              "ability": {
+                "name": "enigma_midnight_pulse"
+              }
+            },
+            {
+              "ability": {
+                "name": "enigma_gravity_well"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "enigma_black_hole"
+              }
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "abilities": [
+            {
+              "ability": {
+                "name": "tinker_laser"
+              }
+            },
+            {
+              "ability": {
+                "name": "tinker_march_of_the_machines"
+              }
+            },
+            {
+              "ability": {
+                "name": "tinker_defense_matrix"
+              }
+            },
+            {
+              "ability": {
+                "name": "tinker_warp_grenade"
+              }
+            },
+            {
+              "ability": {
+                "name": "tinker_keen_teleport"
+              }
+            },
+            {
+              "ability": {
+                "name": "tinker_rearm"
+              }
+            },
+            {
+              "ability": {
+                "name": "tinker_eureka"
+              }
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "abilities": [
+            {
+              "ability": {
+                "name": "sniper_shrapnel"
+              }
+            },
+            {
+              "ability": {
+                "name": "sniper_headshot"
+              }
+            },
+            {
+              "ability": {
+                "name": "sniper_take_aim"
+              }
+            },
+            {
+              "ability": {
+                "name": "sniper_concussive_grenade"
+              }
+            },
+            {
+              "ability": {
+                "name": "sniper_keen_scope"
+              }
+            },
+            {
+              "ability": {
+                "name": "sniper_assassinate"
+              }
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "abilities": [
+            {
+              "ability": {
+                "name": "necrolyte_death_pulse"
+              }
+            },
+            {
+              "ability": {
+                "name": "necrolyte_ghost_shroud"
+              }
+            },
+            {
+              "ability": {
+                "name": "necrolyte_heartstopper_aura"
+              }
+            },
+            {
+              "ability": {
+                "name": "necrolyte_death_seeker"
+              }
+            },
+            {
+              "ability": {
+                "name": "necrolyte_sadist"
+              }
+            },
+            {
+              "ability": {
+                "name": "necrolyte_reapers_scythe"
+              }
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "abilities": [
+            {
+              "ability": {
+                "name": "warlock_fatal_bonds"
+              }
+            },
+            {
+              "ability": {
+                "name": "warlock_shadow_word"
+              }
+            },
+            {
+              "ability": {
+                "name": "warlock_upheaval"
+              }
+            },
+            {
+              "ability": {
+                "name": "warlock_eldritch_summoning"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "warlock_rain_of_chaos"
+              }
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "abilities": [
+            {
+              "ability": {
+                "name": "beastmaster_wild_axes"
+              }
+            },
+            {
+              "ability": {
+                "name": "beastmaster_call_of_the_wild_boar"
+              }
+            },
+            {
+              "ability": {
+                "name": "beastmaster_call_of_the_wild_hawk"
+              }
+            },
+            {
+              "ability": {
+                "name": "beastmaster_inner_beast"
+              }
+            },
+            {
+              "ability": {
+                "name": "beastmaster_drums_of_slom"
+              }
+            },
+            {
+              "ability": {
+                "name": "beastmaster_primal_roar"
+              }
+            },
+            {
+              "ability": {
+                "name": "beastmaster_rugged"
+              }
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "abilities": [
+            {
+              "ability": {
+                "name": "queenofpain_shadow_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "queenofpain_blink"
+              }
+            },
+            {
+              "ability": {
+                "name": "queenofpain_scream_of_pain"
+              }
+            },
+            {
+              "ability": {
+                "name": "queenofpain_bondage"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "queenofpain_sonic_wave"
+              }
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "abilities": [
+            {
+              "ability": {
+                "name": "venomancer_venomous_gale"
+              }
+            },
+            {
+              "ability": {
+                "name": "venomancer_poison_sting"
+              }
+            },
+            {
+              "ability": {
+                "name": "venomancer_plague_ward"
+              }
+            },
+            {
+              "ability": {
+                "name": "venomancer_sepsis"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "venomancer_noxious_plague"
+              }
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "abilities": [
+            {
+              "ability": {
+                "name": "faceless_void_time_walk"
+              }
+            },
+            {
+              "ability": {
+                "name": "faceless_void_time_dilation"
+              }
+            },
+            {
+              "ability": {
+                "name": "faceless_void_time_lock"
+              }
+            },
+            {
+              "ability": {
+                "name": "faceless_void_time_walk_reverse"
+              }
+            },
+            {
+              "ability": {
+                "name": "faceless_void_distortion_field"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "abilities": [
+            {
+              "ability": {
+                "name": "skeleton_king_hellfire_blast"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "skeleton_king_mortal_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "skeleton_king_vampiric_spirit"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "skeleton_king_reincarnation"
+              }
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "abilities": [
+            {
+              "ability": {
+                "name": "death_prophet_carrion_swarm"
+              }
+            },
+            {
+              "ability": {
+                "name": "death_prophet_silence"
+              }
+            },
+            {
+              "ability": {
+                "name": "death_prophet_spirit_siphon"
+              }
+            },
+            {
+              "ability": {
+                "name": "death_prophet_witchcraft"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "death_prophet_exorcism"
+              }
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "abilities": [
+            {
+              "ability": {
+                "name": "phantom_assassin_stifling_dagger"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_assassin_phantom_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_assassin_blur"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_assassin_fan_of_knives"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_assassin_immaterial"
+              }
+            },
+            {
+              "ability": {
+                "name": "phantom_assassin_coup_de_grace"
+              }
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "abilities": [
+            {
+              "ability": {
+                "name": "pugna_nether_blast"
+              }
+            },
+            {
+              "ability": {
+                "name": "pugna_decrepify"
+              }
+            },
+            {
+              "ability": {
+                "name": "pugna_nether_ward"
+              }
+            },
+            {
+              "ability": {
+                "name": "pugna_oblivion_savant"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "pugna_life_drain"
+              }
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "abilities": [
+            {
+              "ability": {
+                "name": "templar_assassin_refraction"
+              }
+            },
+            {
+              "ability": {
+                "name": "templar_assassin_meld"
+              }
+            },
+            {
+              "ability": {
+                "name": "templar_assassin_psi_blades"
+              }
+            },
+            {
+              "ability": {
+                "name": "templar_assassin_trap"
+              }
+            },
+            {
+              "ability": {
+                "name": "templar_assassin_trap_teleport"
+              }
+            },
+            {
+              "ability": {
+                "name": "templar_assassin_psionic_trap"
+              }
+            },
+            {
+              "ability": {
+                "name": "templar_assassin_third_eye"
+              }
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "abilities": [
+            {
+              "ability": {
+                "name": "viper_poison_attack"
+              }
+            },
+            {
+              "ability": {
+                "name": "viper_nethertoxin"
+              }
+            },
+            {
+              "ability": {
+                "name": "viper_corrosive_skin"
+              }
+            },
+            {
+              "ability": {
+                "name": "viper_nose_dive"
+              }
+            },
+            {
+              "ability": {
+                "name": "viper_predator"
+              }
+            },
+            {
+              "ability": {
+                "name": "viper_viper_strike"
+              }
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "abilities": [
+            {
+              "ability": {
+                "name": "luna_lucent_beam"
+              }
+            },
+            {
+              "ability": {
+                "name": "luna_lunar_orbit"
+              }
+            },
+            {
+              "ability": {
+                "name": "luna_moon_glaive"
+              }
+            },
+            {
+              "ability": {
+                "name": "luna_lunar_blessing"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "luna_eclipse"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "abilities": [
+            {
+              "ability": {
+                "name": "dragon_knight_breathe_fire"
+              }
+            },
+            {
+              "ability": {
+                "name": "dragon_knight_dragon_tail"
+              }
+            },
+            {
+              "ability": {
+                "name": "dragon_knight_dragon_blood"
+              }
+            },
+            {
+              "ability": {
+                "name": "dragon_knight_fireball"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "dragon_knight_elder_dragon_form"
+              }
+            },
+            {
+              "ability": {
+                "name": "dragon_knight_inherited_vigor"
+              }
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "abilities": [
+            {
+              "ability": {
+                "name": "dazzle_poison_touch"
+              }
+            },
+            {
+              "ability": {
+                "name": "dazzle_shallow_grave"
+              }
+            },
+            {
+              "ability": {
+                "name": "dazzle_shadow_wave"
+              }
+            },
+            {
+              "ability": {
+                "name": "dazzle_innate_weave"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "dazzle_bad_juju"
+              }
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "abilities": [
+            {
+              "ability": {
+                "name": "rattletrap_battery_assault"
+              }
+            },
+            {
+              "ability": {
+                "name": "rattletrap_power_cogs"
+              }
+            },
+            {
+              "ability": {
+                "name": "rattletrap_rocket_flare"
+              }
+            },
+            {
+              "ability": {
+                "name": "rattletrap_overclocking"
+              }
+            },
+            {
+              "ability": {
+                "name": "rattletrap_jetpack"
+              }
+            },
+            {
+              "ability": {
+                "name": "rattletrap_hookshot"
+              }
+            },
+            {
+              "ability": {
+                "name": "rattletrap_armor_power"
+              }
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "abilities": [
+            {
+              "ability": {
+                "name": "leshrac_split_earth"
+              }
+            },
+            {
+              "ability": {
+                "name": "leshrac_diabolic_edict"
+              }
+            },
+            {
+              "ability": {
+                "name": "leshrac_lightning_storm"
+              }
+            },
+            {
+              "ability": {
+                "name": "leshrac_greater_lightning_storm"
+              }
+            },
+            {
+              "ability": {
+                "name": "leshrac_defilement"
+              }
+            },
+            {
+              "ability": {
+                "name": "leshrac_pulse_nova"
+              }
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "abilities": [
+            {
+              "ability": {
+                "name": "furion_sprout"
+              }
+            },
+            {
+              "ability": {
+                "name": "furion_teleportation"
+              }
+            },
+            {
+              "ability": {
+                "name": "furion_force_of_nature"
+              }
+            },
+            {
+              "ability": {
+                "name": "furion_curse_of_the_forest"
+              }
+            },
+            {
+              "ability": {
+                "name": "furion_spirit_of_the_forest"
+              }
+            },
+            {
+              "ability": {
+                "name": "furion_wrath_of_nature"
+              }
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "abilities": [
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "life_stealer_open_wounds"
+              }
+            },
+            {
+              "ability": {
+                "name": "life_stealer_ghoul_frenzy"
+              }
+            },
+            {
+              "ability": {
+                "name": "life_stealer_feast"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "life_stealer_infest"
+              }
+            },
+            {
+              "ability": {
+                "name": "life_stealer_consume"
+              }
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "abilities": [
+            {
+              "ability": {
+                "name": "dark_seer_vacuum"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_seer_ion_shell"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_seer_surge"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_seer_normal_punch"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_seer_mental_fortitude"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_seer_wall_of_replica"
+              }
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "abilities": [
+            {
+              "ability": {
+                "name": "clinkz_strafe"
+              }
+            },
+            {
+              "ability": {
+                "name": "clinkz_tar_bomb"
+              }
+            },
+            {
+              "ability": {
+                "name": "clinkz_death_pact"
+              }
+            },
+            {
+              "ability": {
+                "name": "clinkz_burning_barrage"
+              }
+            },
+            {
+              "ability": {
+                "name": "clinkz_burning_army"
+              }
+            },
+            {
+              "ability": {
+                "name": "clinkz_wind_walk"
+              }
+            },
+            {
+              "ability": {
+                "name": "clinkz_bone_and_arrow"
+              }
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "abilities": [
+            {
+              "ability": {
+                "name": "omniknight_purification"
+              }
+            },
+            {
+              "ability": {
+                "name": "omniknight_martyr"
+              }
+            },
+            {
+              "ability": {
+                "name": "omniknight_hammer_of_purity"
+              }
+            },
+            {
+              "ability": {
+                "name": "omniknight_degen_aura"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "omniknight_guardian_angel"
+              }
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "abilities": [
+            {
+              "ability": {
+                "name": "enchantress_impetus"
+              }
+            },
+            {
+              "ability": {
+                "name": "enchantress_enchant"
+              }
+            },
+            {
+              "ability": {
+                "name": "enchantress_natures_attendants"
+              }
+            },
+            {
+              "ability": {
+                "name": "enchantress_bunny_hop"
+              }
+            },
+            {
+              "ability": {
+                "name": "enchantress_little_friends"
+              }
+            },
+            {
+              "ability": {
+                "name": "enchantress_untouchable"
+              }
+            },
+            {
+              "ability": {
+                "name": "enchantress_rabblerouser"
+              }
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "abilities": [
+            {
+              "ability": {
+                "name": "huskar_inner_fire"
+              }
+            },
+            {
+              "ability": {
+                "name": "huskar_burning_spear"
+              }
+            },
+            {
+              "ability": {
+                "name": "huskar_berserkers_blood"
+              }
+            },
+            {
+              "ability": {
+                "name": "huskar_blood_magic"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "huskar_life_break"
+              }
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "abilities": [
+            {
+              "ability": {
+                "name": "night_stalker_void"
+              }
+            },
+            {
+              "ability": {
+                "name": "night_stalker_crippling_fear"
+              }
+            },
+            {
+              "ability": {
+                "name": "night_stalker_hunter_in_the_night"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "night_stalker_darkness"
+              }
+            },
+            {
+              "ability": {
+                "name": "night_stalker_heart_of_darkness"
+              }
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "abilities": [
+            {
+              "ability": {
+                "name": "broodmother_insatiable_hunger"
+              }
+            },
+            {
+              "ability": {
+                "name": "broodmother_spin_web"
+              }
+            },
+            {
+              "ability": {
+                "name": "broodmother_incapacitating_bite"
+              }
+            },
+            {
+              "ability": {
+                "name": "broodmother_sticky_snare"
+              }
+            },
+            {
+              "ability": {
+                "name": "broodmother_spiders_milk"
+              }
+            },
+            {
+              "ability": {
+                "name": "broodmother_spawn_spiderlings"
+              }
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "abilities": [
+            {
+              "ability": {
+                "name": "bounty_hunter_shuriken_toss"
+              }
+            },
+            {
+              "ability": {
+                "name": "bounty_hunter_jinada"
+              }
+            },
+            {
+              "ability": {
+                "name": "bounty_hunter_wind_walk"
+              }
+            },
+            {
+              "ability": {
+                "name": "bounty_hunter_wind_walk_ally"
+              }
+            },
+            {
+              "ability": {
+                "name": "bounty_hunter_big_game_hunter"
+              }
+            },
+            {
+              "ability": {
+                "name": "bounty_hunter_track"
+              }
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "abilities": [
+            {
+              "ability": {
+                "name": "weaver_the_swarm"
+              }
+            },
+            {
+              "ability": {
+                "name": "weaver_shukuchi"
+              }
+            },
+            {
+              "ability": {
+                "name": "weaver_geminate_attack"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "weaver_time_lapse"
+              }
+            },
+            {
+              "ability": {
+                "name": "weaver_rewoven"
+              }
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "abilities": [
+            {
+              "ability": {
+                "name": "jakiro_dual_breath"
+              }
+            },
+            {
+              "ability": {
+                "name": "jakiro_ice_path"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "jakiro_double_trouble"
+              }
+            },
+            {
+              "ability": {
+                "name": "jakiro_macropyre"
+              }
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "abilities": [
+            {
+              "ability": {
+                "name": "batrider_sticky_napalm"
+              }
+            },
+            {
+              "ability": {
+                "name": "batrider_flamebreak"
+              }
+            },
+            {
+              "ability": {
+                "name": "batrider_firefly"
+              }
+            },
+            {
+              "ability": {
+                "name": "batrider_sticky_napalm_application_damage"
+              }
+            },
+            {
+              "ability": {
+                "name": "batrider_smoldering_resin"
+              }
+            },
+            {
+              "ability": {
+                "name": "batrider_flaming_lasso"
+              }
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "abilities": [
+            {
+              "ability": {
+                "name": "chen_penitence"
+              }
+            },
+            {
+              "ability": {
+                "name": "chen_holy_persuasion"
+              }
+            },
+            {
+              "ability": {
+                "name": "chen_divine_favor"
+              }
+            },
+            {
+              "ability": {
+                "name": "chen_summon_convert"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "chen_hand_of_god"
+              }
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "abilities": [
+            {
+              "ability": {
+                "name": "spectre_spectral_dagger"
+              }
+            },
+            {
+              "ability": {
+                "name": "spectre_desolate"
+              }
+            },
+            {
+              "ability": {
+                "name": "spectre_dispersion"
+              }
+            },
+            {
+              "ability": {
+                "name": "spectre_reality"
+              }
+            },
+            {
+              "ability": {
+                "name": "spectre_haunt"
+              }
+            },
+            {
+              "ability": {
+                "name": "spectre_haunt_single"
+              }
+            },
+            {
+              "ability": {
+                "name": "spectre_spectral"
+              }
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "abilities": [
+            {
+              "ability": {
+                "name": "ancient_apparition_cold_feet"
+              }
+            },
+            {
+              "ability": {
+                "name": "ancient_apparition_ice_vortex"
+              }
+            },
+            {
+              "ability": {
+                "name": "ancient_apparition_chilling_touch"
+              }
+            },
+            {
+              "ability": {
+                "name": "ancient_apparition_death_rime"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "ancient_apparition_ice_blast"
+              }
+            },
+            {
+              "ability": {
+                "name": "ancient_apparition_ice_blast_release"
+              }
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "abilities": [
+            {
+              "ability": {
+                "name": "doom_bringer_devour"
+              }
+            },
+            {
+              "ability": {
+                "name": "doom_bringer_scorched_earth"
+              }
+            },
+            {
+              "ability": {
+                "name": "doom_bringer_infernal_blade"
+              }
+            },
+            {
+              "ability": {
+                "name": "doom_bringer_empty1"
+              }
+            },
+            {
+              "ability": {
+                "name": "doom_bringer_empty2"
+              }
+            },
+            {
+              "ability": {
+                "name": "doom_bringer_doom"
+              }
+            },
+            {
+              "ability": {
+                "name": "doom_bringer_lvl_pain"
+              }
+            }
+          ]
+        },
+        {
+          "id": 70,
+          "abilities": [
+            {
+              "ability": {
+                "name": "ursa_earthshock"
+              }
+            },
+            {
+              "ability": {
+                "name": "ursa_overpower"
+              }
+            },
+            {
+              "ability": {
+                "name": "ursa_fury_swipes"
+              }
+            },
+            {
+              "ability": {
+                "name": "ursa_maul"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "ursa_enrage"
+              }
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "abilities": [
+            {
+              "ability": {
+                "name": "spirit_breaker_charge_of_darkness"
+              }
+            },
+            {
+              "ability": {
+                "name": "spirit_breaker_bulldoze"
+              }
+            },
+            {
+              "ability": {
+                "name": "spirit_breaker_greater_bash"
+              }
+            },
+            {
+              "ability": {
+                "name": "spirit_breaker_planar_pocket"
+              }
+            },
+            {
+              "ability": {
+                "name": "spirit_breaker_herd_mentality"
+              }
+            },
+            {
+              "ability": {
+                "name": "spirit_breaker_nether_strike"
+              }
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "abilities": [
+            {
+              "ability": {
+                "name": "gyrocopter_rocket_barrage"
+              }
+            },
+            {
+              "ability": {
+                "name": "gyrocopter_homing_missile"
+              }
+            },
+            {
+              "ability": {
+                "name": "gyrocopter_flak_cannon"
+              }
+            },
+            {
+              "ability": {
+                "name": "gyrocopter_chop_shop"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "gyrocopter_call_down"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "abilities": [
+            {
+              "ability": {
+                "name": "alchemist_acid_spray"
+              }
+            },
+            {
+              "ability": {
+                "name": "alchemist_unstable_concoction"
+              }
+            },
+            {
+              "ability": {
+                "name": "alchemist_corrosive_weaponry"
+              }
+            },
+            {
+              "ability": {
+                "name": "alchemist_berserk_potion"
+              }
+            },
+            {
+              "ability": {
+                "name": "alchemist_goblins_greed"
+              }
+            },
+            {
+              "ability": {
+                "name": "alchemist_chemical_rage"
+              }
+            },
+            {
+              "ability": {
+                "name": "alchemist_unstable_concoction_throw"
+              }
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "abilities": [
+            {
+              "ability": {
+                "name": "invoker_quas"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_wex"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_exort"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_empty1"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_empty2"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_invoke"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_cold_snap"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_ghost_walk"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_tornado"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_emp"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_alacrity"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_chaos_meteor"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_sun_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_forge_spirit"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_ice_wall"
+              }
+            },
+            {
+              "ability": {
+                "name": "invoker_deafening_blast"
+              }
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "abilities": [
+            {
+              "ability": {
+                "name": "silencer_curse_of_the_silent"
+              }
+            },
+            {
+              "ability": {
+                "name": "silencer_glaives_of_wisdom"
+              }
+            },
+            {
+              "ability": {
+                "name": "silencer_last_word"
+              }
+            },
+            {
+              "ability": {
+                "name": "silencer_brain_drain"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "silencer_global_silence"
+              }
+            }
+          ]
+        },
+        {
+          "id": 76,
+          "abilities": [
+            {
+              "ability": {
+                "name": "obsidian_destroyer_arcane_orb"
+              }
+            },
+            {
+              "ability": {
+                "name": "obsidian_destroyer_astral_imprisonment"
+              }
+            },
+            {
+              "ability": {
+                "name": "obsidian_destroyer_equilibrium"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "obsidian_destroyer_ominous_discernment"
+              }
+            },
+            {
+              "ability": {
+                "name": "obsidian_destroyer_sanity_eclipse"
+              }
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "abilities": [
+            {
+              "ability": {
+                "name": "lycan_summon_wolves"
+              }
+            },
+            {
+              "ability": {
+                "name": "lycan_howl"
+              }
+            },
+            {
+              "ability": {
+                "name": "lycan_feral_impulse"
+              }
+            },
+            {
+              "ability": {
+                "name": "lycan_wolf_bite"
+              }
+            },
+            {
+              "ability": {
+                "name": "lycan_apex_predator"
+              }
+            },
+            {
+              "ability": {
+                "name": "lycan_shapeshift"
+              }
+            }
+          ]
+        },
+        {
+          "id": 78,
+          "abilities": [
+            {
+              "ability": {
+                "name": "brewmaster_thunder_clap"
+              }
+            },
+            {
+              "ability": {
+                "name": "brewmaster_cinder_brew"
+              }
+            },
+            {
+              "ability": {
+                "name": "brewmaster_drunken_brawler"
+              }
+            },
+            {
+              "ability": {
+                "name": "brewmaster_primal_companion"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "brewmaster_primal_split"
+              }
+            },
+            {
+              "ability": {
+                "name": "brewmaster_belligerent"
+              }
+            }
+          ]
+        },
+        {
+          "id": 79,
+          "abilities": [
+            {
+              "ability": {
+                "name": "shadow_demon_disruption"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_demon_disseminate"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_demon_shadow_poison"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_demon_shadow_poison_release"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_demon_demonic_cleanse"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_demon_demonic_purge"
+              }
+            },
+            {
+              "ability": {
+                "name": "shadow_demon_menace"
+              }
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "abilities": [
+            {
+              "ability": {
+                "name": "lone_druid_spirit_bear"
+              }
+            },
+            {
+              "ability": {
+                "name": "lone_druid_spirit_link"
+              }
+            },
+            {
+              "ability": {
+                "name": "lone_druid_savage_roar"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "lone_druid_true_form"
+              }
+            },
+            {
+              "ability": {
+                "name": "lone_druid_gift_bearer"
+              }
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "abilities": [
+            {
+              "ability": {
+                "name": "chaos_knight_chaos_bolt"
+              }
+            },
+            {
+              "ability": {
+                "name": "chaos_knight_reality_rift"
+              }
+            },
+            {
+              "ability": {
+                "name": "chaos_knight_chaos_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "chaos_knight_reins_of_chaos"
+              }
+            },
+            {
+              "ability": {
+                "name": "chaos_knight_phantasm"
+              }
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "abilities": [
+            {
+              "ability": {
+                "name": "meepo_earthbind"
+              }
+            },
+            {
+              "ability": {
+                "name": "meepo_poof"
+              }
+            },
+            {
+              "ability": {
+                "name": "meepo_ransack"
+              }
+            },
+            {
+              "ability": {
+                "name": "meepo_petrify"
+              }
+            },
+            {
+              "ability": {
+                "name": "meepo_megameepo"
+              }
+            },
+            {
+              "ability": {
+                "name": "meepo_divided_we_stand"
+              }
+            },
+            {
+              "ability": {
+                "name": "meepo_megameepo_fling"
+              }
+            },
+            {
+              "ability": {
+                "name": "meepo_sticky_fingers"
+              }
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "abilities": [
+            {
+              "ability": {
+                "name": "treant_natures_grasp"
+              }
+            },
+            {
+              "ability": {
+                "name": "treant_leech_seed"
+              }
+            },
+            {
+              "ability": {
+                "name": "treant_living_armor"
+              }
+            },
+            {
+              "ability": {
+                "name": "treant_eyes_in_the_forest"
+              }
+            },
+            {
+              "ability": {
+                "name": "treant_natures_guise"
+              }
+            },
+            {
+              "ability": {
+                "name": "treant_overgrowth"
+              }
+            },
+            {
+              "ability": {
+                "name": "treant_innate_attack_damage"
+              }
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "abilities": [
+            {
+              "ability": {
+                "name": "ogre_magi_fireblast"
+              }
+            },
+            {
+              "ability": {
+                "name": "ogre_magi_ignite"
+              }
+            },
+            {
+              "ability": {
+                "name": "ogre_magi_bloodlust"
+              }
+            },
+            {
+              "ability": {
+                "name": "ogre_magi_unrefined_fireblast"
+              }
+            },
+            {
+              "ability": {
+                "name": "ogre_magi_smash"
+              }
+            },
+            {
+              "ability": {
+                "name": "ogre_magi_dumb_luck"
+              }
+            },
+            {
+              "ability": {
+                "name": "ogre_magi_multicast"
+              }
+            }
+          ]
+        },
+        {
+          "id": 85,
+          "abilities": [
+            {
+              "ability": {
+                "name": "undying_decay"
+              }
+            },
+            {
+              "ability": {
+                "name": "undying_soul_rip"
+              }
+            },
+            {
+              "ability": {
+                "name": "undying_tombstone"
+              }
+            },
+            {
+              "ability": {
+                "name": "undying_ceaseless_dirge"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "undying_flesh_golem"
+              }
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "abilities": [
+            {
+              "ability": {
+                "name": "rubick_telekinesis"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_fade_bolt"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_arcane_supremacy"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_empty1"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_empty2"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_spell_steal"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_telekinesis_land"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_hidden1"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_hidden2"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_might_and_magus"
+              }
+            },
+            {
+              "ability": {
+                "name": "rubick_telekinesis_land_self"
+              }
+            }
+          ]
+        },
+        {
+          "id": 87,
+          "abilities": [
+            {
+              "ability": {
+                "name": "disruptor_thunder_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "disruptor_glimpse"
+              }
+            },
+            {
+              "ability": {
+                "name": "disruptor_kinetic_field"
+              }
+            },
+            {
+              "ability": {
+                "name": "disruptor_electromagnetic_repulsion"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "disruptor_static_storm"
+              }
+            }
+          ]
+        },
+        {
+          "id": 88,
+          "abilities": [
+            {
+              "ability": {
+                "name": "nyx_assassin_impale"
+              }
+            },
+            {
+              "ability": {
+                "name": "nyx_assassin_jolt"
+              }
+            },
+            {
+              "ability": {
+                "name": "nyx_assassin_spiked_carapace"
+              }
+            },
+            {
+              "ability": {
+                "name": "nyx_assassin_burrow"
+              }
+            },
+            {
+              "ability": {
+                "name": "nyx_assassin_nyxth_sense"
+              }
+            },
+            {
+              "ability": {
+                "name": "nyx_assassin_vendetta"
+              }
+            },
+            {
+              "ability": {
+                "name": "nyx_assassin_unburrow"
+              }
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "abilities": [
+            {
+              "ability": {
+                "name": "naga_siren_mirror_image"
+              }
+            },
+            {
+              "ability": {
+                "name": "naga_siren_ensnare"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "naga_siren_reel_in"
+              }
+            },
+            {
+              "ability": {
+                "name": "naga_siren_eelskin"
+              }
+            },
+            {
+              "ability": {
+                "name": "naga_siren_song_of_the_siren"
+              }
+            },
+            {
+              "ability": {
+                "name": "naga_siren_song_of_the_siren_cancel"
+              }
+            }
+          ]
+        },
+        {
+          "id": 90,
+          "abilities": [
+            {
+              "ability": {
+                "name": "keeper_of_the_light_illuminate"
+              }
+            },
+            {
+              "ability": {
+                "name": "keeper_of_the_light_blinding_light"
+              }
+            },
+            {
+              "ability": {
+                "name": "keeper_of_the_light_chakra_magic"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "keeper_of_the_light_will_o_wisp"
+              }
+            },
+            {
+              "ability": {
+                "name": "keeper_of_the_light_spirit_form"
+              }
+            },
+            {
+              "ability": {
+                "name": "keeper_of_the_light_illuminate_end"
+              }
+            },
+            {
+              "ability": {
+                "name": "keeper_of_the_light_mana_magnifier"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "id": 91,
+          "abilities": [
+            {
+              "ability": {
+                "name": "wisp_tether"
+              }
+            },
+            {
+              "ability": {
+                "name": "wisp_spirits"
+              }
+            },
+            {
+              "ability": {
+                "name": "wisp_overcharge"
+              }
+            },
+            {
+              "ability": {
+                "name": "wisp_spirits_in"
+              }
+            },
+            {
+              "ability": {
+                "name": "wisp_spirits_out"
+              }
+            },
+            {
+              "ability": {
+                "name": "wisp_relocate"
+              }
+            },
+            {
+              "ability": {
+                "name": "wisp_tether_break"
+              }
+            },
+            {
+              "ability": {
+                "name": "wisp_sight_seer"
+              }
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "abilities": [
+            {
+              "ability": {
+                "name": "visage_grave_chill"
+              }
+            },
+            {
+              "ability": {
+                "name": "visage_soul_assumption"
+              }
+            },
+            {
+              "ability": {
+                "name": "visage_gravekeepers_cloak"
+              }
+            },
+            {
+              "ability": {
+                "name": "visage_stone_form_self_cast"
+              }
+            },
+            {
+              "ability": {
+                "name": "visage_silent_as_the_grave"
+              }
+            },
+            {
+              "ability": {
+                "name": "visage_summon_familiars"
+              }
+            },
+            {
+              "ability": {
+                "name": "visage_summon_familiars_stone_form"
+              }
+            },
+            {
+              "ability": {
+                "name": "visage_lurker"
+              }
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "abilities": [
+            {
+              "ability": {
+                "name": "slark_dark_pact"
+              }
+            },
+            {
+              "ability": {
+                "name": "slark_pounce"
+              }
+            },
+            {
+              "ability": {
+                "name": "slark_essence_shift"
+              }
+            },
+            {
+              "ability": {
+                "name": "slark_depth_shroud"
+              }
+            },
+            {
+              "ability": {
+                "name": "slark_barracuda"
+              }
+            },
+            {
+              "ability": {
+                "name": "slark_shadow_dance"
+              }
+            }
+          ]
+        },
+        {
+          "id": 94,
+          "abilities": [
+            {
+              "ability": {
+                "name": "medusa_split_shot"
+              }
+            },
+            {
+              "ability": {
+                "name": "medusa_mystic_snake"
+              }
+            },
+            {
+              "ability": {
+                "name": "medusa_gorgon_grasp"
+              }
+            },
+            {
+              "ability": {
+                "name": "medusa_cold_blooded"
+              }
+            },
+            {
+              "ability": {
+                "name": "medusa_mana_shield"
+              }
+            },
+            {
+              "ability": {
+                "name": "medusa_stone_gaze"
+              }
+            }
+          ]
+        },
+        {
+          "id": 95,
+          "abilities": [
+            {
+              "ability": {
+                "name": "troll_warlord_switch_stance"
+              }
+            },
+            {
+              "ability": {
+                "name": "troll_warlord_whirling_axes_ranged"
+              }
+            },
+            {
+              "ability": {
+                "name": "troll_warlord_whirling_axes_melee"
+              }
+            },
+            {
+              "ability": {
+                "name": "troll_warlord_fervor"
+              }
+            },
+            {
+              "ability": {
+                "name": "troll_warlord_berserkers_rage"
+              }
+            },
+            {
+              "ability": {
+                "name": "troll_warlord_battle_trance"
+              }
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "abilities": [
+            {
+              "ability": {
+                "name": "centaur_hoof_stomp"
+              }
+            },
+            {
+              "ability": {
+                "name": "centaur_double_edge"
+              }
+            },
+            {
+              "ability": {
+                "name": "centaur_return"
+              }
+            },
+            {
+              "ability": {
+                "name": "centaur_mount"
+              }
+            },
+            {
+              "ability": {
+                "name": "centaur_work_horse"
+              }
+            },
+            {
+              "ability": {
+                "name": "centaur_stampede"
+              }
+            },
+            {
+              "ability": {
+                "name": "centaur_rawhide"
+              }
+            }
+          ]
+        },
+        {
+          "id": 97,
+          "abilities": [
+            {
+              "ability": {
+                "name": "magnataur_shockwave"
+              }
+            },
+            {
+              "ability": {
+                "name": "magnataur_empower"
+              }
+            },
+            {
+              "ability": {
+                "name": "magnataur_skewer"
+              }
+            },
+            {
+              "ability": {
+                "name": "magnataur_horn_toss"
+              }
+            },
+            {
+              "ability": {
+                "name": "magnataur_solid_core"
+              }
+            },
+            {
+              "ability": {
+                "name": "magnataur_reverse_polarity"
+              }
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "abilities": [
+            {
+              "ability": {
+                "name": "shredder_whirling_death"
+              }
+            },
+            {
+              "ability": {
+                "name": "shredder_timber_chain"
+              }
+            },
+            {
+              "ability": {
+                "name": "shredder_reactive_armor"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "shredder_flamethrower"
+              }
+            },
+            {
+              "ability": {
+                "name": "shredder_chakram"
+              }
+            },
+            {
+              "ability": {
+                "name": "shredder_return_chakram"
+              }
+            },
+            {
+              "ability": {
+                "name": "shredder_return_chakram_2"
+              }
+            },
+            {
+              "ability": {
+                "name": "shredder_exposure_therapy"
+              }
+            }
+          ]
+        },
+        {
+          "id": 99,
+          "abilities": [
+            {
+              "ability": {
+                "name": "bristleback_viscous_nasal_goo"
+              }
+            },
+            {
+              "ability": {
+                "name": "bristleback_quill_spray"
+              }
+            },
+            {
+              "ability": {
+                "name": "bristleback_bristleback"
+              }
+            },
+            {
+              "ability": {
+                "name": "bristleback_hairball"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "bristleback_warpath"
+              }
+            },
+            {
+              "ability": {
+                "name": "bristleback_prickly"
+              }
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "abilities": [
+            {
+              "ability": {
+                "name": "tusk_ice_shards"
+              }
+            },
+            {
+              "ability": {
+                "name": "tusk_snowball"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "tusk_walrus_kick"
+              }
+            },
+            {
+              "ability": {
+                "name": "tusk_bitter_chill"
+              }
+            },
+            {
+              "ability": {
+                "name": "tusk_walrus_punch"
+              }
+            },
+            {
+              "ability": {
+                "name": "tusk_launch_snowball"
+              }
+            }
+          ]
+        },
+        {
+          "id": 101,
+          "abilities": [
+            {
+              "ability": {
+                "name": "skywrath_mage_arcane_bolt"
+              }
+            },
+            {
+              "ability": {
+                "name": "skywrath_mage_concussive_shot"
+              }
+            },
+            {
+              "ability": {
+                "name": "skywrath_mage_ancient_seal"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "skywrath_mage_ruin_and_restoration"
+              }
+            },
+            {
+              "ability": {
+                "name": "skywrath_mage_mystic_flare"
+              }
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "abilities": [
+            {
+              "ability": {
+                "name": "abaddon_death_coil"
+              }
+            },
+            {
+              "ability": {
+                "name": "abaddon_aphotic_shield"
+              }
+            },
+            {
+              "ability": {
+                "name": "abaddon_frostmourne"
+              }
+            },
+            {
+              "ability": {
+                "name": "abaddon_withering_mist"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "abaddon_borrowed_time"
+              }
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "abilities": [
+            {
+              "ability": {
+                "name": "elder_titan_echo_stomp"
+              }
+            },
+            {
+              "ability": {
+                "name": "elder_titan_ancestral_spirit"
+              }
+            },
+            {
+              "ability": {
+                "name": "elder_titan_natural_order"
+              }
+            },
+            {
+              "ability": {
+                "name": "elder_titan_move_spirit"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "elder_titan_earth_splitter"
+              }
+            },
+            {
+              "ability": {
+                "name": "elder_titan_return_spirit"
+              }
+            },
+            {
+              "ability": {
+                "name": "elder_titan_tip_the_scales"
+              }
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "abilities": [
+            {
+              "ability": {
+                "name": "legion_commander_overwhelming_odds"
+              }
+            },
+            {
+              "ability": {
+                "name": "legion_commander_press_the_attack"
+              }
+            },
+            {
+              "ability": {
+                "name": "legion_commander_moment_of_courage"
+              }
+            },
+            {
+              "ability": {
+                "name": "legion_commander_outfight_them"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "legion_commander_duel"
+              }
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "abilities": [
+            {
+              "ability": {
+                "name": "techies_sticky_bomb"
+              }
+            },
+            {
+              "ability": {
+                "name": "techies_reactive_tazer"
+              }
+            },
+            {
+              "ability": {
+                "name": "techies_suicide"
+              }
+            },
+            {
+              "ability": {
+                "name": "techies_reactive_tazer_stop"
+              }
+            },
+            {
+              "ability": {
+                "name": "techies_minefield_sign"
+              }
+            },
+            {
+              "ability": {
+                "name": "techies_land_mines"
+              }
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "abilities": [
+            {
+              "ability": {
+                "name": "ember_spirit_searing_chains"
+              }
+            },
+            {
+              "ability": {
+                "name": "ember_spirit_sleight_of_fist"
+              }
+            },
+            {
+              "ability": {
+                "name": "ember_spirit_flame_guard"
+              }
+            },
+            {
+              "ability": {
+                "name": "ember_spirit_activate_fire_remnant"
+              }
+            },
+            {
+              "ability": {
+                "name": "ember_spirit_immolation"
+              }
+            },
+            {
+              "ability": {
+                "name": "ember_spirit_fire_remnant"
+              }
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "abilities": [
+            {
+              "ability": {
+                "name": "earth_spirit_boulder_smash"
+              }
+            },
+            {
+              "ability": {
+                "name": "earth_spirit_rolling_boulder"
+              }
+            },
+            {
+              "ability": {
+                "name": "earth_spirit_geomagnetic_grip"
+              }
+            },
+            {
+              "ability": {
+                "name": "earth_spirit_stone_caller"
+              }
+            },
+            {
+              "ability": {
+                "name": "earth_spirit_petrify"
+              }
+            },
+            {
+              "ability": {
+                "name": "earth_spirit_magnetize"
+              }
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "abilities": [
+            {
+              "ability": {
+                "name": "abyssal_underlord_firestorm"
+              }
+            },
+            {
+              "ability": {
+                "name": "abyssal_underlord_pit_of_malice"
+              }
+            },
+            {
+              "ability": {
+                "name": "abyssal_underlord_atrophy_aura"
+              }
+            },
+            {
+              "ability": {
+                "name": "abyssal_underlord_raid_boss"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "abyssal_underlord_dark_portal"
+              }
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "abilities": [
+            {
+              "ability": {
+                "name": "terrorblade_reflection"
+              }
+            },
+            {
+              "ability": {
+                "name": "terrorblade_conjure_image"
+              }
+            },
+            {
+              "ability": {
+                "name": "terrorblade_metamorphosis"
+              }
+            },
+            {
+              "ability": {
+                "name": "terrorblade_demon_zeal"
+              }
+            },
+            {
+              "ability": {
+                "name": "terrorblade_terror_wave"
+              }
+            },
+            {
+              "ability": {
+                "name": "terrorblade_sunder"
+              }
+            },
+            {
+              "ability": {
+                "name": "terrorblade_dark_unity"
+              }
+            }
+          ]
+        },
+        {
+          "id": 110,
+          "abilities": [
+            {
+              "ability": {
+                "name": "phoenix_icarus_dive"
+              }
+            },
+            {
+              "ability": {
+                "name": "phoenix_fire_spirits"
+              }
+            },
+            {
+              "ability": {
+                "name": "phoenix_sun_ray"
+              }
+            },
+            {
+              "ability": {
+                "name": "phoenix_sun_ray_toggle_move"
+              }
+            },
+            {
+              "ability": {
+                "name": "phoenix_blinding_sun"
+              }
+            },
+            {
+              "ability": {
+                "name": "phoenix_supernova"
+              }
+            },
+            {
+              "ability": {
+                "name": "phoenix_launch_fire_spirit"
+              }
+            },
+            {
+              "ability": {
+                "name": "phoenix_icarus_dive_stop"
+              }
+            },
+            {
+              "ability": {
+                "name": "phoenix_sun_ray_stop"
+              }
+            }
+          ]
+        },
+        {
+          "id": 111,
+          "abilities": [
+            {
+              "ability": {
+                "name": "oracle_fortunes_end"
+              }
+            },
+            {
+              "ability": {
+                "name": "oracle_fates_edict"
+              }
+            },
+            {
+              "ability": {
+                "name": "oracle_purifying_flames"
+              }
+            },
+            {
+              "ability": {
+                "name": "oracle_rain_of_destiny"
+              }
+            },
+            {
+              "ability": {
+                "name": "oracle_prognosticate"
+              }
+            },
+            {
+              "ability": {
+                "name": "oracle_false_promise"
+              }
+            }
+          ]
+        },
+        {
+          "id": 112,
+          "abilities": [
+            {
+              "ability": {
+                "name": "winter_wyvern_arctic_burn"
+              }
+            },
+            {
+              "ability": {
+                "name": "winter_wyvern_splinter_blast"
+              }
+            },
+            {
+              "ability": {
+                "name": "winter_wyvern_cold_embrace"
+              }
+            },
+            {
+              "ability": {
+                "name": "winter_wyvern_eldwurm_scholar"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "winter_wyvern_winters_curse"
+              }
+            }
+          ]
+        },
+        {
+          "id": 113,
+          "abilities": [
+            {
+              "ability": {
+                "name": "arc_warden_flux"
+              }
+            },
+            {
+              "ability": {
+                "name": "arc_warden_magnetic_field"
+              }
+            },
+            {
+              "ability": {
+                "name": "arc_warden_spark_wraith"
+              }
+            },
+            {
+              "ability": {
+                "name": "arc_warden_runic_infusion"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "arc_warden_tempest_double"
+              }
+            }
+          ]
+        },
+        {
+          "id": 114,
+          "abilities": [
+            {
+              "ability": {
+                "name": "monkey_king_boundless_strike"
+              }
+            },
+            {
+              "ability": {
+                "name": "monkey_king_tree_dance"
+              }
+            },
+            {
+              "ability": {
+                "name": "monkey_king_primal_spring"
+              }
+            },
+            {
+              "ability": {
+                "name": "monkey_king_jingu_mastery"
+              }
+            },
+            {
+              "ability": {
+                "name": "monkey_king_mischief"
+              }
+            },
+            {
+              "ability": {
+                "name": "monkey_king_wukongs_command"
+              }
+            },
+            {
+              "ability": {
+                "name": "monkey_king_primal_spring_early"
+              }
+            },
+            {
+              "ability": {
+                "name": "monkey_king_untransform"
+              }
+            }
+          ]
+        },
+        {
+          "id": 119,
+          "abilities": [
+            {
+              "ability": {
+                "name": "dark_willow_bramble_maze"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_willow_shadow_realm"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_willow_cursed_crown"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_willow_bedlam"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_willow_pixie_dust"
+              }
+            },
+            {
+              "ability": {
+                "name": "dark_willow_terrorize"
+              }
+            }
+          ]
+        },
+        {
+          "id": 120,
+          "abilities": [
+            {
+              "ability": {
+                "name": "pangolier_swashbuckle"
+              }
+            },
+            {
+              "ability": {
+                "name": "pangolier_shield_crash"
+              }
+            },
+            {
+              "ability": {
+                "name": "pangolier_lucky_shot"
+              }
+            },
+            {
+              "ability": {
+                "name": "pangolier_fortune_favors_the_bold"
+              }
+            },
+            {
+              "ability": {
+                "name": "pangolier_rollup"
+              }
+            },
+            {
+              "ability": {
+                "name": "pangolier_gyroshell"
+              }
+            },
+            {
+              "ability": {
+                "name": "pangolier_gyroshell_stop"
+              }
+            },
+            {
+              "ability": {
+                "name": "pangolier_rollup_stop"
+              }
+            }
+          ]
+        },
+        {
+          "id": 121,
+          "abilities": [
+            {
+              "ability": {
+                "name": "grimstroke_dark_artistry"
+              }
+            },
+            {
+              "ability": {
+                "name": "grimstroke_ink_creature"
+              }
+            },
+            {
+              "ability": {
+                "name": "grimstroke_spirit_walk"
+              }
+            },
+            {
+              "ability": {
+                "name": "grimstroke_dark_portrait"
+              }
+            },
+            {
+              "ability": {
+                "name": "grimstroke_return"
+              }
+            },
+            {
+              "ability": {
+                "name": "grimstroke_soul_chain"
+              }
+            },
+            {
+              "ability": {
+                "name": "grimstroke_ink_trail"
+              }
+            }
+          ]
+        },
+        {
+          "id": 123,
+          "abilities": [
+            {
+              "ability": {
+                "name": "hoodwink_acorn_shot"
+              }
+            },
+            {
+              "ability": {
+                "name": "hoodwink_bushwhack"
+              }
+            },
+            {
+              "ability": {
+                "name": "hoodwink_scurry"
+              }
+            },
+            {
+              "ability": {
+                "name": "hoodwink_decoy"
+              }
+            },
+            {
+              "ability": {
+                "name": "hoodwink_hunters_boomerang"
+              }
+            },
+            {
+              "ability": {
+                "name": "hoodwink_mistwoods_wayfarer"
+              }
+            },
+            {
+              "ability": {
+                "name": "hoodwink_sharpshooter"
+              }
+            },
+            {
+              "ability": {
+                "name": "hoodwink_sharpshooter_release"
+              }
+            }
+          ]
+        },
+        {
+          "id": 126,
+          "abilities": [
+            {
+              "ability": {
+                "name": "void_spirit_aether_remnant"
+              }
+            },
+            {
+              "ability": {
+                "name": "void_spirit_dissimilate"
+              }
+            },
+            {
+              "ability": {
+                "name": "void_spirit_resonant_pulse"
+              }
+            },
+            {
+              "ability": {
+                "name": "void_spirit_intrinsic_edge"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "void_spirit_astral_step"
+              }
+            }
+          ]
+        },
+        {
+          "id": 128,
+          "abilities": [
+            {
+              "ability": {
+                "name": "snapfire_scatterblast"
+              }
+            },
+            {
+              "ability": {
+                "name": "snapfire_firesnap_cookie"
+              }
+            },
+            {
+              "ability": {
+                "name": "snapfire_lil_shredder"
+              }
+            },
+            {
+              "ability": {
+                "name": "snapfire_gobble_up"
+              }
+            },
+            {
+              "ability": {
+                "name": "snapfire_spit_creep"
+              }
+            },
+            {
+              "ability": {
+                "name": "snapfire_mortimer_kisses"
+              }
+            },
+            {
+              "ability": {
+                "name": "snapfire_buckshot"
+              }
+            }
+          ]
+        },
+        {
+          "id": 129,
+          "abilities": [
+            {
+              "ability": {
+                "name": "mars_spear"
+              }
+            },
+            {
+              "ability": {
+                "name": "mars_gods_rebuke"
+              }
+            },
+            {
+              "ability": {
+                "name": "mars_bulwark"
+              }
+            },
+            {
+              "ability": {
+                "name": "mars_dauntless"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "mars_arena_of_blood"
+              }
+            }
+          ]
+        },
+        {
+          "id": 131,
+          "abilities": [
+            {
+              "ability": {
+                "name": "ringmaster_tame_the_beasts"
+              }
+            },
+            {
+              "ability": {
+                "name": "ringmaster_the_box"
+              }
+            },
+            {
+              "ability": {
+                "name": "ringmaster_impalement"
+              }
+            },
+            {
+              "ability": {
+                "name": "ringmaster_empty_souvenir"
+              }
+            },
+            {
+              "ability": {
+                "name": "ringmaster_spotlight"
+              }
+            },
+            {
+              "ability": {
+                "name": "ringmaster_wheel"
+              }
+            },
+            {
+              "ability": {
+                "name": "ringmaster_tame_the_beasts_crack"
+              }
+            }
+          ]
+        },
+        {
+          "id": 135,
+          "abilities": [
+            {
+              "ability": {
+                "name": "dawnbreaker_fire_wreath"
+              }
+            },
+            {
+              "ability": {
+                "name": "dawnbreaker_celestial_hammer"
+              }
+            },
+            {
+              "ability": {
+                "name": "dawnbreaker_luminosity"
+              }
+            },
+            {
+              "ability": {
+                "name": "dawnbreaker_converge"
+              }
+            },
+            {
+              "ability": {
+                "name": "dawnbreaker_break_of_dawn"
+              }
+            },
+            {
+              "ability": {
+                "name": "dawnbreaker_solar_guardian"
+              }
+            },
+            {
+              "ability": {
+                "name": "dawnbreaker_land"
+              }
+            }
+          ]
+        },
+        {
+          "id": 136,
+          "abilities": [
+            {
+              "ability": {
+                "name": "marci_grapple"
+              }
+            },
+            {
+              "ability": {
+                "name": "marci_companion_run"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "marci_special_delivery"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "marci_unleash"
+              }
+            }
+          ]
+        },
+        {
+          "id": 137,
+          "abilities": [
+            {
+              "ability": {
+                "name": "primal_beast_onslaught"
+              }
+            },
+            {
+              "ability": {
+                "name": "primal_beast_trample"
+              }
+            },
+            {
+              "ability": {
+                "name": "primal_beast_uproar"
+              }
+            },
+            {
+              "ability": {
+                "name": "primal_beast_rock_throw"
+              }
+            },
+            {
+              "ability": {
+                "name": "primal_beast_onslaught_release"
+              }
+            },
+            {
+              "ability": {
+                "name": "primal_beast_pulverize"
+              }
+            },
+            {
+              "ability": {
+                "name": "primal_beast_colossal"
+              }
+            }
+          ]
+        },
+        {
+          "id": 138,
+          "abilities": [
+            {
+              "ability": {
+                "name": "muerta_dead_shot"
+              }
+            },
+            {
+              "ability": {
+                "name": "muerta_the_calling"
+              }
+            },
+            {
+              "ability": {
+                "name": "muerta_gunslinger"
+              }
+            },
+            {
+              "ability": {
+                "name": "muerta_parting_shot"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "muerta_pierce_the_veil"
+              }
+            },
+            {
+              "ability": {
+                "name": "muerta_supernatural"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "id": 145,
+          "abilities": [
+            {
+              "ability": {
+                "name": "kez_echo_slash"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_grappling_claw"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_kazurai_katana"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_switch_weapons"
+              }
+            },
+            {
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_raptor_dance"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_falcon_rush"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_talon_toss"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_shodo_sai"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_ravens_veil"
+              }
+            },
+            {
+              "ability": {
+                "name": "kez_shodo_sai_parry_cancel"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

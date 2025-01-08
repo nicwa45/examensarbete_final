@@ -1,0 +1,5750 @@
+{
+  "data": {
+    "constants": {
+      "heroes": [
+        {
+          "name": "npc_dota_hero_antimage",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "antimage_mana_break"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "antimage_blink"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "antimage_counterspell"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "antimage_counterspell_ally"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "antimage_persectur"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "antimage_mana_void"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_axe",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "axe_berserkers_call"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "axe_battle_hunger"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "axe_counter_helix"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "axe_culling_blade"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "axe_coat_of_blood"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_bane",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "bane_enfeeble"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "bane_brain_sap"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "bane_nightmare"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "bane_fiends_grip"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "bane_nightmare_end"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "bane_ichor_of_nyctasha"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_bloodseeker",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "bloodseeker_bloodrage"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "bloodseeker_blood_bath"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "bloodseeker_thirst"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "bloodseeker_blood_mist"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "bloodseeker_sanguivore"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "bloodseeker_rupture"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_crystal_maiden",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "crystal_maiden_crystal_nova"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "crystal_maiden_frostbite"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "crystal_maiden_brilliance_aura"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "crystal_maiden_crystal_clone"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "crystal_maiden_blueheart_floe"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "crystal_maiden_freezing_field"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "crystal_maiden_freezing_field_stop"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_drow_ranger",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "drow_ranger_frost_arrows"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "drow_ranger_wave_of_silence"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "drow_ranger_multishot"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "drow_ranger_glacier"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "drow_ranger_trueshot"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "drow_ranger_marksmanship"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_earthshaker",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "earthshaker_fissure"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "earthshaker_enchant_totem"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "earthshaker_aftershock"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "earthshaker_echo_slam"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "earthshaker_spirit_cairn"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_juggernaut",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "juggernaut_blade_fury"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "juggernaut_healing_ward"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "juggernaut_blade_dance"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "juggernaut_swift_slash"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "juggernaut_duelist"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "juggernaut_omni_slash"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_mirana",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "mirana_starfall"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "mirana_arrow"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "mirana_leap"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "mirana_selemenes_faithful"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_morphling",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "morphling_waveform"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "morphling_adaptive_strike_agi"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "morphling_adaptive_strike_str"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "morphling_morph_agi"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "morphling_morph_str"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "morphling_replicate"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "morphling_morph_replicate"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "morphling_morph"
+              }
+            },
+            {
+              "slot": 9,
+              "ability": {
+                "name": "morphling_accumulation"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_nevermore",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "nevermore_shadowraze1"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "nevermore_shadowraze2"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "nevermore_shadowraze3"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "nevermore_frenzy"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "nevermore_dark_lord"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "nevermore_requiem"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "nevermore_necromastery"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_phantom_lancer",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "phantom_lancer_spirit_lance"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "phantom_lancer_doppelwalk"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "phantom_lancer_phantom_edge"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "phantom_lancer_illusory_armaments"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "phantom_lancer_juxtapose"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_puck",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "puck_illusory_orb"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "puck_waning_rift"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "puck_phase_shift"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "puck_ethereal_jaunt"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "puck_puckish"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "puck_dream_coil"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_pudge",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "pudge_meat_hook"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "pudge_rot"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "pudge_flesh_heap"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "pudge_eject"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "pudge_innate_graft_flesh"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "pudge_dismember"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_razor",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "razor_plasma_field"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "razor_static_link"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "razor_storm_surge"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "razor_unstable_current"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "razor_eye_of_the_storm"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_sand_king",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "sandking_burrowstrike"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "sandking_sand_storm"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "sandking_scorpion_strike"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "sandking_caustic_finale"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "sandking_epicenter"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_storm_spirit",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "storm_spirit_static_remnant"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "storm_spirit_electric_vortex"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "storm_spirit_overload"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "storm_spirit_ball_lightning"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "storm_spirit_galvanized"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_sven",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "sven_storm_bolt"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "sven_great_cleave"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "sven_warcry"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "sven_gods_strength"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "sven_vanquisher"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_tiny",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "tiny_avalanche"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "tiny_toss"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "tiny_tree_grab"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "tiny_tree_channel"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "tiny_craggy_exterior"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "tiny_grow"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "tiny_toss_tree"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_vengefulspirit",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "vengefulspirit_magic_missile"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "vengefulspirit_wave_of_terror"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "vengefulspirit_command_aura"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "vengefulspirit_retribution"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "vengefulspirit_nether_swap"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_windrunner",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "windrunner_shackleshot"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "windrunner_powershot"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "windrunner_windrun"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "windrunner_gale_force"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "windrunner_focusfire_cancel"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "windrunner_focusfire"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "windrunner_easy_breezy"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_zuus",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "zuus_arc_lightning"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "zuus_lightning_bolt"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "zuus_heavenly_jump"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "zuus_cloud"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "zuus_lightning_hands"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "zuus_thundergods_wrath"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "zuus_static_field"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_kunkka",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "kunkka_torrent"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "kunkka_tidebringer"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "kunkka_x_marks_the_spot"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "kunkka_admirals_rum"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "kunkka_tidal_wave"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "kunkka_ghostship"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "kunkka_return"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_lina",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "lina_dragon_slave"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "lina_light_strike_array"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "lina_fiery_soul"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "lina_flame_cloak"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "lina_combustion"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "lina_laguna_blade"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_lion",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "lion_impale"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "lion_voodoo"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "lion_mana_drain"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "lion_to_hell_and_back"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "lion_finger_of_death"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_shadow_shaman",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "shadow_shaman_ether_shock"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "shadow_shaman_voodoo"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "shadow_shaman_shackles"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "shadow_shaman_fowl_play"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "shadow_shaman_mass_serpent_ward"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_slardar",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "slardar_sprint"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "slardar_slithereen_crush"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "slardar_bash"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "slardar_seaborn_sentinel"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "slardar_amplify_damage"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_tidehunter",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "tidehunter_gush"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "tidehunter_kraken_shell"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "tidehunter_anchor_smash"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "tidehunter_dead_in_the_water"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "tidehunter_ravage"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "tidehunter_blubber"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_witch_doctor",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "witch_doctor_paralyzing_cask"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "witch_doctor_voodoo_restoration"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "witch_doctor_maledict"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "witch_doctor_voodoo_switcheroo"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "witch_doctor_gris_gris"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "witch_doctor_death_ward"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_lich",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "lich_frost_nova"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "lich_frost_shield"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "lich_sinister_gaze"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "lich_ice_spire"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "lich_death_charge"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "lich_chain_frost"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_riki",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "riki_smoke_screen"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "riki_blink_strike"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "riki_tricks_of_the_trade"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "riki_innate_backstab"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "riki_backstab"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_enigma",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "enigma_malefice"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "enigma_demonic_conversion"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "enigma_midnight_pulse"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "enigma_gravity_well"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "enigma_black_hole"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_tinker",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "tinker_laser"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "tinker_march_of_the_machines"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "tinker_defense_matrix"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "tinker_warp_grenade"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "tinker_keen_teleport"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "tinker_rearm"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "tinker_eureka"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_sniper",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "sniper_shrapnel"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "sniper_headshot"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "sniper_take_aim"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "sniper_concussive_grenade"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "sniper_keen_scope"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "sniper_assassinate"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_necrolyte",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "necrolyte_death_pulse"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "necrolyte_ghost_shroud"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "necrolyte_heartstopper_aura"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "necrolyte_death_seeker"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "necrolyte_sadist"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "necrolyte_reapers_scythe"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_warlock",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "warlock_fatal_bonds"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "warlock_shadow_word"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "warlock_upheaval"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "warlock_eldritch_summoning"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "warlock_rain_of_chaos"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_beastmaster",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "beastmaster_wild_axes"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "beastmaster_call_of_the_wild_boar"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "beastmaster_call_of_the_wild_hawk"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "beastmaster_inner_beast"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "beastmaster_drums_of_slom"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "beastmaster_primal_roar"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "beastmaster_rugged"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_queenofpain",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "queenofpain_shadow_strike"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "queenofpain_blink"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "queenofpain_scream_of_pain"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "queenofpain_bondage"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "queenofpain_sonic_wave"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_venomancer",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "venomancer_venomous_gale"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "venomancer_poison_sting"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "venomancer_plague_ward"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "venomancer_sepsis"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "venomancer_noxious_plague"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_faceless_void",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "faceless_void_time_walk"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "faceless_void_time_dilation"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "faceless_void_time_lock"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "faceless_void_time_walk_reverse"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "faceless_void_distortion_field"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_skeleton_king",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "skeleton_king_hellfire_blast"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "skeleton_king_mortal_strike"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "skeleton_king_vampiric_spirit"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "skeleton_king_reincarnation"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_death_prophet",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "death_prophet_carrion_swarm"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "death_prophet_silence"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "death_prophet_spirit_siphon"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "death_prophet_witchcraft"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "death_prophet_exorcism"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_phantom_assassin",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "phantom_assassin_stifling_dagger"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "phantom_assassin_phantom_strike"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "phantom_assassin_blur"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "phantom_assassin_fan_of_knives"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "phantom_assassin_immaterial"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "phantom_assassin_coup_de_grace"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_pugna",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "pugna_nether_blast"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "pugna_decrepify"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "pugna_nether_ward"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "pugna_oblivion_savant"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "pugna_life_drain"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_templar_assassin",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "templar_assassin_refraction"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "templar_assassin_meld"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "templar_assassin_psi_blades"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "templar_assassin_trap"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "templar_assassin_trap_teleport"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "templar_assassin_psionic_trap"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "templar_assassin_third_eye"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_viper",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "viper_poison_attack"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "viper_nethertoxin"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "viper_corrosive_skin"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "viper_nose_dive"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "viper_predator"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "viper_viper_strike"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_luna",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "luna_lucent_beam"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "luna_lunar_orbit"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "luna_moon_glaive"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "luna_lunar_blessing"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "luna_eclipse"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_dragon_knight",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "dragon_knight_breathe_fire"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "dragon_knight_dragon_tail"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "dragon_knight_dragon_blood"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "dragon_knight_fireball"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "dragon_knight_elder_dragon_form"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "dragon_knight_inherited_vigor"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_dazzle",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "dazzle_poison_touch"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "dazzle_shallow_grave"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "dazzle_shadow_wave"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "dazzle_innate_weave"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "dazzle_bad_juju"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_rattletrap",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "rattletrap_battery_assault"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "rattletrap_power_cogs"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "rattletrap_rocket_flare"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "rattletrap_overclocking"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "rattletrap_jetpack"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "rattletrap_hookshot"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "rattletrap_armor_power"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_leshrac",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "leshrac_split_earth"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "leshrac_diabolic_edict"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "leshrac_lightning_storm"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "leshrac_greater_lightning_storm"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "leshrac_defilement"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "leshrac_pulse_nova"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_furion",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "furion_sprout"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "furion_teleportation"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "furion_force_of_nature"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "furion_curse_of_the_forest"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "furion_spirit_of_the_forest"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "furion_wrath_of_nature"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_life_stealer",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "life_stealer_open_wounds"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "life_stealer_ghoul_frenzy"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "life_stealer_feast"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "life_stealer_infest"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "life_stealer_consume"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_dark_seer",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "dark_seer_vacuum"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "dark_seer_ion_shell"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "dark_seer_surge"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "dark_seer_normal_punch"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "dark_seer_mental_fortitude"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "dark_seer_wall_of_replica"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_clinkz",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "clinkz_strafe"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "clinkz_tar_bomb"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "clinkz_death_pact"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "clinkz_burning_barrage"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "clinkz_burning_army"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "clinkz_wind_walk"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "clinkz_bone_and_arrow"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_omniknight",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "omniknight_purification"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "omniknight_martyr"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "omniknight_hammer_of_purity"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "omniknight_degen_aura"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "omniknight_guardian_angel"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_enchantress",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "enchantress_impetus"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "enchantress_enchant"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "enchantress_natures_attendants"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "enchantress_bunny_hop"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "enchantress_little_friends"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "enchantress_untouchable"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "enchantress_rabblerouser"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_huskar",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "huskar_inner_fire"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "huskar_burning_spear"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "huskar_berserkers_blood"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "huskar_blood_magic"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "huskar_life_break"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_night_stalker",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "night_stalker_void"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "night_stalker_crippling_fear"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "night_stalker_hunter_in_the_night"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "night_stalker_darkness"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "night_stalker_heart_of_darkness"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_broodmother",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "broodmother_insatiable_hunger"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "broodmother_spin_web"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "broodmother_incapacitating_bite"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "broodmother_sticky_snare"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "broodmother_spiders_milk"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "broodmother_spawn_spiderlings"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_bounty_hunter",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "bounty_hunter_shuriken_toss"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "bounty_hunter_jinada"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "bounty_hunter_wind_walk"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "bounty_hunter_wind_walk_ally"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "bounty_hunter_big_game_hunter"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "bounty_hunter_track"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_weaver",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "weaver_the_swarm"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "weaver_shukuchi"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "weaver_geminate_attack"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "weaver_time_lapse"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "weaver_rewoven"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_jakiro",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "jakiro_dual_breath"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "jakiro_ice_path"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "jakiro_double_trouble"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "jakiro_macropyre"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_batrider",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "batrider_sticky_napalm"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "batrider_flamebreak"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "batrider_firefly"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "batrider_sticky_napalm_application_damage"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "batrider_smoldering_resin"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "batrider_flaming_lasso"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_chen",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "chen_penitence"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "chen_holy_persuasion"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "chen_divine_favor"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "chen_summon_convert"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "chen_hand_of_god"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_spectre",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "spectre_spectral_dagger"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "spectre_desolate"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "spectre_dispersion"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "spectre_reality"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "spectre_haunt"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "spectre_haunt_single"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "spectre_spectral"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_ancient_apparition",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "ancient_apparition_cold_feet"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "ancient_apparition_ice_vortex"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "ancient_apparition_chilling_touch"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "ancient_apparition_death_rime"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "ancient_apparition_ice_blast"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "ancient_apparition_ice_blast_release"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_doom_bringer",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "doom_bringer_devour"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "doom_bringer_scorched_earth"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "doom_bringer_infernal_blade"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "doom_bringer_empty1"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "doom_bringer_empty2"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "doom_bringer_doom"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "doom_bringer_lvl_pain"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_ursa",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "ursa_earthshock"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "ursa_overpower"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "ursa_fury_swipes"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "ursa_maul"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "ursa_enrage"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_spirit_breaker",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "spirit_breaker_charge_of_darkness"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "spirit_breaker_bulldoze"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "spirit_breaker_greater_bash"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "spirit_breaker_planar_pocket"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "spirit_breaker_herd_mentality"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "spirit_breaker_nether_strike"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_gyrocopter",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "gyrocopter_rocket_barrage"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "gyrocopter_homing_missile"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "gyrocopter_flak_cannon"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "gyrocopter_chop_shop"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "gyrocopter_call_down"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_alchemist",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "alchemist_acid_spray"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "alchemist_unstable_concoction"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "alchemist_corrosive_weaponry"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "alchemist_berserk_potion"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "alchemist_goblins_greed"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "alchemist_chemical_rage"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "alchemist_unstable_concoction_throw"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_invoker",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "invoker_quas"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "invoker_wex"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "invoker_exort"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "invoker_empty1"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "invoker_empty2"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "invoker_invoke"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "invoker_cold_snap"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "invoker_ghost_walk"
+              }
+            },
+            {
+              "slot": 9,
+              "ability": {
+                "name": "invoker_tornado"
+              }
+            },
+            {
+              "slot": 10,
+              "ability": {
+                "name": "invoker_emp"
+              }
+            },
+            {
+              "slot": 11,
+              "ability": {
+                "name": "invoker_alacrity"
+              }
+            },
+            {
+              "slot": 12,
+              "ability": {
+                "name": "invoker_chaos_meteor"
+              }
+            },
+            {
+              "slot": 13,
+              "ability": {
+                "name": "invoker_sun_strike"
+              }
+            },
+            {
+              "slot": 14,
+              "ability": {
+                "name": "invoker_forge_spirit"
+              }
+            },
+            {
+              "slot": 15,
+              "ability": {
+                "name": "invoker_ice_wall"
+              }
+            },
+            {
+              "slot": 16,
+              "ability": {
+                "name": "invoker_deafening_blast"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_silencer",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "silencer_curse_of_the_silent"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "silencer_glaives_of_wisdom"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "silencer_last_word"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "silencer_brain_drain"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "silencer_global_silence"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_obsidian_destroyer",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "obsidian_destroyer_arcane_orb"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "obsidian_destroyer_astral_imprisonment"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "obsidian_destroyer_equilibrium"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "obsidian_destroyer_ominous_discernment"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "obsidian_destroyer_sanity_eclipse"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_lycan",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "lycan_summon_wolves"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "lycan_howl"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "lycan_feral_impulse"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "lycan_wolf_bite"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "lycan_apex_predator"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "lycan_shapeshift"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_brewmaster",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "brewmaster_thunder_clap"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "brewmaster_cinder_brew"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "brewmaster_drunken_brawler"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "brewmaster_primal_companion"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "brewmaster_primal_split"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "brewmaster_belligerent"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_shadow_demon",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "shadow_demon_disruption"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "shadow_demon_disseminate"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "shadow_demon_shadow_poison"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "shadow_demon_shadow_poison_release"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "shadow_demon_demonic_cleanse"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "shadow_demon_demonic_purge"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "shadow_demon_menace"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_lone_druid",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "lone_druid_spirit_bear"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "lone_druid_spirit_link"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "lone_druid_savage_roar"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "lone_druid_true_form"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "lone_druid_gift_bearer"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_chaos_knight",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "chaos_knight_chaos_bolt"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "chaos_knight_reality_rift"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "chaos_knight_chaos_strike"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "chaos_knight_reins_of_chaos"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "chaos_knight_phantasm"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_meepo",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "meepo_earthbind"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "meepo_poof"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "meepo_ransack"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "meepo_petrify"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "meepo_megameepo"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "meepo_divided_we_stand"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "meepo_megameepo_fling"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "meepo_sticky_fingers"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_treant",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "treant_natures_grasp"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "treant_leech_seed"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "treant_living_armor"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "treant_eyes_in_the_forest"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "treant_natures_guise"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "treant_overgrowth"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "treant_innate_attack_damage"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_ogre_magi",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "ogre_magi_fireblast"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "ogre_magi_ignite"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "ogre_magi_bloodlust"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "ogre_magi_unrefined_fireblast"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "ogre_magi_smash"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "ogre_magi_dumb_luck"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "ogre_magi_multicast"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_undying",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "undying_decay"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "undying_soul_rip"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "undying_tombstone"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "undying_ceaseless_dirge"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "undying_flesh_golem"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_rubick",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "rubick_telekinesis"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "rubick_fade_bolt"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "rubick_arcane_supremacy"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "rubick_empty1"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "rubick_empty2"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "rubick_spell_steal"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "rubick_telekinesis_land"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "rubick_hidden1"
+              }
+            },
+            {
+              "slot": 9,
+              "ability": {
+                "name": "rubick_hidden2"
+              }
+            },
+            {
+              "slot": 10,
+              "ability": {
+                "name": "rubick_might_and_magus"
+              }
+            },
+            {
+              "slot": 11,
+              "ability": {
+                "name": "rubick_telekinesis_land_self"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_disruptor",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "disruptor_thunder_strike"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "disruptor_glimpse"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "disruptor_kinetic_field"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "disruptor_electromagnetic_repulsion"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "disruptor_static_storm"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_nyx_assassin",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "nyx_assassin_impale"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "nyx_assassin_jolt"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "nyx_assassin_spiked_carapace"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "nyx_assassin_burrow"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "nyx_assassin_nyxth_sense"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "nyx_assassin_vendetta"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "nyx_assassin_unburrow"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_naga_siren",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "naga_siren_mirror_image"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "naga_siren_ensnare"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "naga_siren_reel_in"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "naga_siren_eelskin"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "naga_siren_song_of_the_siren"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "naga_siren_song_of_the_siren_cancel"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_keeper_of_the_light",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "keeper_of_the_light_illuminate"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "keeper_of_the_light_blinding_light"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "keeper_of_the_light_chakra_magic"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "keeper_of_the_light_will_o_wisp"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "keeper_of_the_light_spirit_form"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "keeper_of_the_light_illuminate_end"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "keeper_of_the_light_mana_magnifier"
+              }
+            },
+            {
+              "slot": 9,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 10,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_wisp",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "wisp_tether"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "wisp_spirits"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "wisp_overcharge"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "wisp_spirits_in"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "wisp_spirits_out"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "wisp_relocate"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "wisp_tether_break"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "wisp_sight_seer"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_visage",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "visage_grave_chill"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "visage_soul_assumption"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "visage_gravekeepers_cloak"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "visage_stone_form_self_cast"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "visage_silent_as_the_grave"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "visage_summon_familiars"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "visage_summon_familiars_stone_form"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "visage_lurker"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_slark",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "slark_dark_pact"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "slark_pounce"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "slark_essence_shift"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "slark_depth_shroud"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "slark_barracuda"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "slark_shadow_dance"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_medusa",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "medusa_split_shot"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "medusa_mystic_snake"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "medusa_gorgon_grasp"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "medusa_cold_blooded"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "medusa_mana_shield"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "medusa_stone_gaze"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_troll_warlord",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "troll_warlord_switch_stance"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "troll_warlord_whirling_axes_ranged"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "troll_warlord_whirling_axes_melee"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "troll_warlord_fervor"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "troll_warlord_berserkers_rage"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "troll_warlord_battle_trance"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_centaur",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "centaur_hoof_stomp"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "centaur_double_edge"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "centaur_return"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "centaur_mount"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "centaur_work_horse"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "centaur_stampede"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "centaur_rawhide"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_magnataur",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "magnataur_shockwave"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "magnataur_empower"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "magnataur_skewer"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "magnataur_horn_toss"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "magnataur_solid_core"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "magnataur_reverse_polarity"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_shredder",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "shredder_whirling_death"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "shredder_timber_chain"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "shredder_reactive_armor"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "shredder_flamethrower"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "shredder_chakram"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "shredder_return_chakram"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "shredder_return_chakram_2"
+              }
+            },
+            {
+              "slot": 9,
+              "ability": {
+                "name": "shredder_exposure_therapy"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_bristleback",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "bristleback_viscous_nasal_goo"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "bristleback_quill_spray"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "bristleback_bristleback"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "bristleback_hairball"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "bristleback_warpath"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "bristleback_prickly"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_tusk",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "tusk_ice_shards"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "tusk_snowball"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "tusk_walrus_kick"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "tusk_bitter_chill"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "tusk_walrus_punch"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "tusk_launch_snowball"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_skywrath_mage",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "skywrath_mage_arcane_bolt"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "skywrath_mage_concussive_shot"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "skywrath_mage_ancient_seal"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "skywrath_mage_ruin_and_restoration"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "skywrath_mage_mystic_flare"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_abaddon",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "abaddon_death_coil"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "abaddon_aphotic_shield"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "abaddon_frostmourne"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "abaddon_withering_mist"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "abaddon_borrowed_time"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_elder_titan",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "elder_titan_echo_stomp"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "elder_titan_ancestral_spirit"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "elder_titan_natural_order"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "elder_titan_move_spirit"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "elder_titan_earth_splitter"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "elder_titan_return_spirit"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "elder_titan_tip_the_scales"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_legion_commander",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "legion_commander_overwhelming_odds"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "legion_commander_press_the_attack"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "legion_commander_moment_of_courage"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "legion_commander_outfight_them"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "legion_commander_duel"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_techies",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "techies_sticky_bomb"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "techies_reactive_tazer"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "techies_suicide"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "techies_reactive_tazer_stop"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "techies_minefield_sign"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "techies_land_mines"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_ember_spirit",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "ember_spirit_searing_chains"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "ember_spirit_sleight_of_fist"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "ember_spirit_flame_guard"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "ember_spirit_activate_fire_remnant"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "ember_spirit_immolation"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "ember_spirit_fire_remnant"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_earth_spirit",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "earth_spirit_boulder_smash"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "earth_spirit_rolling_boulder"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "earth_spirit_geomagnetic_grip"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "earth_spirit_stone_caller"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "earth_spirit_petrify"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "earth_spirit_magnetize"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_abyssal_underlord",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "abyssal_underlord_firestorm"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "abyssal_underlord_pit_of_malice"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "abyssal_underlord_atrophy_aura"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "abyssal_underlord_raid_boss"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "abyssal_underlord_dark_portal"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_terrorblade",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "terrorblade_reflection"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "terrorblade_conjure_image"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "terrorblade_metamorphosis"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "terrorblade_demon_zeal"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "terrorblade_terror_wave"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "terrorblade_sunder"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "terrorblade_dark_unity"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_phoenix",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "phoenix_icarus_dive"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "phoenix_fire_spirits"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "phoenix_sun_ray"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "phoenix_sun_ray_toggle_move"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "phoenix_blinding_sun"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "phoenix_supernova"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "phoenix_launch_fire_spirit"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "phoenix_icarus_dive_stop"
+              }
+            },
+            {
+              "slot": 9,
+              "ability": {
+                "name": "phoenix_sun_ray_stop"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_oracle",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "oracle_fortunes_end"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "oracle_fates_edict"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "oracle_purifying_flames"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "oracle_rain_of_destiny"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "oracle_prognosticate"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "oracle_false_promise"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_winter_wyvern",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "winter_wyvern_arctic_burn"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "winter_wyvern_splinter_blast"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "winter_wyvern_cold_embrace"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "winter_wyvern_eldwurm_scholar"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "winter_wyvern_winters_curse"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_arc_warden",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "arc_warden_flux"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "arc_warden_magnetic_field"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "arc_warden_spark_wraith"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "arc_warden_runic_infusion"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "arc_warden_tempest_double"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_monkey_king",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "monkey_king_boundless_strike"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "monkey_king_tree_dance"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "monkey_king_primal_spring"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "monkey_king_jingu_mastery"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "monkey_king_mischief"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "monkey_king_wukongs_command"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "monkey_king_primal_spring_early"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "monkey_king_untransform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_dark_willow",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "dark_willow_bramble_maze"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "dark_willow_shadow_realm"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "dark_willow_cursed_crown"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "dark_willow_bedlam"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "dark_willow_pixie_dust"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "dark_willow_terrorize"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_pangolier",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "pangolier_swashbuckle"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "pangolier_shield_crash"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "pangolier_lucky_shot"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "pangolier_fortune_favors_the_bold"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "pangolier_rollup"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "pangolier_gyroshell"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "pangolier_gyroshell_stop"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "pangolier_rollup_stop"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_grimstroke",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "grimstroke_dark_artistry"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "grimstroke_ink_creature"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "grimstroke_spirit_walk"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "grimstroke_dark_portrait"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "grimstroke_return"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "grimstroke_soul_chain"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "grimstroke_ink_trail"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_hoodwink",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "hoodwink_acorn_shot"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "hoodwink_bushwhack"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "hoodwink_scurry"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "hoodwink_decoy"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "hoodwink_hunters_boomerang"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "hoodwink_mistwoods_wayfarer"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "hoodwink_sharpshooter"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "hoodwink_sharpshooter_release"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_void_spirit",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "void_spirit_aether_remnant"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "void_spirit_dissimilate"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "void_spirit_resonant_pulse"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "void_spirit_intrinsic_edge"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "void_spirit_astral_step"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_snapfire",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "snapfire_scatterblast"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "snapfire_firesnap_cookie"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "snapfire_lil_shredder"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "snapfire_gobble_up"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "snapfire_spit_creep"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "snapfire_mortimer_kisses"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "snapfire_buckshot"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_mars",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "mars_spear"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "mars_gods_rebuke"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "mars_bulwark"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "mars_dauntless"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "mars_arena_of_blood"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_ringmaster",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "ringmaster_tame_the_beasts"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "ringmaster_the_box"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "ringmaster_impalement"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "ringmaster_empty_souvenir"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "ringmaster_spotlight"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "ringmaster_wheel"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "ringmaster_tame_the_beasts_crack"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_dawnbreaker",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "dawnbreaker_fire_wreath"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "dawnbreaker_celestial_hammer"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "dawnbreaker_luminosity"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "dawnbreaker_converge"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "dawnbreaker_break_of_dawn"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "dawnbreaker_solar_guardian"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "dawnbreaker_land"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_marci",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "marci_grapple"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "marci_companion_run"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "marci_special_delivery"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "marci_unleash"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_primal_beast",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "primal_beast_onslaught"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "primal_beast_trample"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "primal_beast_uproar"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "primal_beast_rock_throw"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "primal_beast_onslaught_release"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "primal_beast_pulverize"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "primal_beast_colossal"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_muerta",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "muerta_dead_shot"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "muerta_the_calling"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "muerta_gunslinger"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "muerta_parting_shot"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "muerta_pierce_the_veil"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "muerta_supernatural"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 9,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            }
+          ]
+        },
+        {
+          "name": "npc_dota_hero_kez",
+          "abilities": [
+            {
+              "slot": 1,
+              "ability": {
+                "name": "kez_echo_slash"
+              }
+            },
+            {
+              "slot": 2,
+              "ability": {
+                "name": "kez_grappling_claw"
+              }
+            },
+            {
+              "slot": 3,
+              "ability": {
+                "name": "kez_kazurai_katana"
+              }
+            },
+            {
+              "slot": 4,
+              "ability": {
+                "name": "kez_switch_weapons"
+              }
+            },
+            {
+              "slot": 5,
+              "ability": {
+                "name": "generic_hidden"
+              }
+            },
+            {
+              "slot": 6,
+              "ability": {
+                "name": "kez_raptor_dance"
+              }
+            },
+            {
+              "slot": 7,
+              "ability": {
+                "name": "kez_falcon_rush"
+              }
+            },
+            {
+              "slot": 8,
+              "ability": {
+                "name": "kez_talon_toss"
+              }
+            },
+            {
+              "slot": 9,
+              "ability": {
+                "name": "kez_shodo_sai"
+              }
+            },
+            {
+              "slot": 10,
+              "ability": {
+                "name": "kez_ravens_veil"
+              }
+            },
+            {
+              "slot": 11,
+              "ability": {
+                "name": "kez_shodo_sai_parry_cancel"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
