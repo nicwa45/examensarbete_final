@@ -3,12 +3,12 @@ import requests
 import os
 
 app = Flask(__name__)
-
-# API Base URLs and Authentication
+API_KEY = os.getenv("API_KEY")
+#API Base URLs and Authentication
 API_BASE_URL = "https://api.opendota.com/api"
 STRATZ_GRAPHQL_URL = "https://api.stratz.com/graphql"
 #STRATZ_AUTH_TOKEN = os.getenv("STRATZ_AUTH_TOKEN")
-STRATZ_AUTH_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWJqZWN0IjoiYmIwYjcwZGItMzNlYi00OGUzLThhYjUtNWNmZmEzYjhiMTc1IiwiU3RlYW1JZCI6IjI2ODY0ODM0IiwibmJmIjoxNzMzMTU1OTc5LCJleHAiOjE3NjQ2OTE5NzksImlhdCI6MTczMzE1NTk3OSwiaXNzIjoiaHR0cHM6Ly9hcGkuc3RyYXR6LmNvbSJ9.J4n-S_sHCAAwgz7MR_rNUIr61dfgLqZqZV_vA_R9qaI"
+STRATZ_AUTH_TOKEN = API_KEY
 
 @app.route('/')
 def index():
@@ -137,7 +137,7 @@ def fetch_hero_abilities(hero_id):
                     "image_url": f"https://dota2heroimg.blob.core.windows.net/heroimg/ability_images/{ability['ability']['name']}.png",
                 }
                 for ability in hero["abilities"]
-                if ability["ability"]["name"] != "generic_hidden"  # Exclude hidden abilities
+                if ability["ability"]["name"] != "generic_hidden" #some abilities are named generic_hidden in the api, probably a place holder, this removes them
             ]
     return None
 
