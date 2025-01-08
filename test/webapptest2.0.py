@@ -15,7 +15,7 @@ def index():
 
 @app.route('/heroes', methods=['GET'])
 def get_heroes():
-    # Fetch all heroes to populate the dropdown
+    #Fetch all heroes to the dropdown
     response = requests.get(f"{API_BASE_URL}/heroStats")
     if response.status_code == 200:
         heroes = response.json()
@@ -28,7 +28,7 @@ def get_heroes():
 
 @app.route('/hero/<int:hero_id>', methods=['GET'])
 def get_hero_stats(hero_id):
-    # Fetch all hero stats from OpenDota API
+    #Fetch all hero stats from OpenDota API
     response = requests.get(f"{API_BASE_URL}/heroStats")
     if response.status_code == 200:
         hero_data = response.json()
@@ -94,7 +94,7 @@ def fetch_hero_abilities(hero_id):
                     "manaCost": ability["ability"]["stat"]["manaCost"] or [],
                 }
                 for ability in hero_data.get("abilities", [])
-                if ability["ability"]["language"]["displayName"]  # Exclude generic hidden abilities
+                if ability["ability"]["language"]["displayName"] 
             ]
             return abilities
     return None
