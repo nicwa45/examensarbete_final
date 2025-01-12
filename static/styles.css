@@ -4,8 +4,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark black/gray for modern feel */
-    color: #f4f4f4; /* Light text for contrast */
+    background-color: #121212; 
+    color: #f4f4f4; 
 }
 
 .container {
@@ -26,7 +26,7 @@ header {
 }
 
 .header-logo {
-    width: 200px; /* Adjust size as needed */
+    width: 200px; 
     height: auto;
     margin-left: 10px;
 }
@@ -38,9 +38,9 @@ header h1 {
 
 /* Dropdown */
 .dropdown {
-    background: #333; /* Darker dropdown background */
-    color: #f4f4f4; /* White text */
-    border: 1px solid #555; /* Subtle border */
+    background: #333; 
+    color: #f4f4f4; 
+    border: 1px solid #555; 
 }
 
 .dropdown {
@@ -54,14 +54,14 @@ header h1 {
 }
 
 .hero-details h2 {
-    color: #ffffff; /* Makes the text white */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Adds a shadow for better readability */
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
 /* Hero Image */
 .hero-image {
-    border: 2px solid #555; /* Border around hero image */
-    border-radius: 8px; /* Rounded corners */
+    border: 2px solid #555; /* Border around image of hero */
+    border-radius: 8px; 
 }
 
 .ability-image {
@@ -72,7 +72,7 @@ header h1 {
 
 /* Sections */
 section {
-    background: #1e1e1e; /* Dark gray for contrast */
+    background: #1e1e1e;
     margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
@@ -92,11 +92,11 @@ section p {
 
 /* Abilities */
 .abilities .ability {
-    border: 1px solid #555; /* Border to match theme */
+    border: 1px solid #555; 
     padding: 10px;
     margin: 10px 0;
     border-radius: 8px;
-    background: #252525; /* Slightly lighter gray */
+    background: #252525; 
 }
 
 .abilities .ability img {
@@ -111,9 +111,9 @@ section p {
 }
 
 .win-rate-stats h3 {
-    color: #ffffff; /* White text */
+    color: #ffffff; 
     margin-bottom: 10px;
-    text-align: left; /* Adjust alignment as needed */
+    text-align: left; 
 }
 
 /* Footer */
